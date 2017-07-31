@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SimpleCloudApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SimpleCloudApplication.class, args);
+		SpringApplication.run(SimpleCloudApplication.class, args);		
 	}
 }
