@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>eurekaserver</artifactId>
+	<packaging>jar</packaging>
+
+	<name>cloud_eureka_server</name>
+	<description>eureka server for Spring Boot</description>
+	
+	<parent>
+		<groupId>com.hry.spring.cloud</groupId>
+		<artifactId>cloudgparent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../cloud_parent/pom.xml</relativePath>
+	</parent>
+
+	<dependencies>
+		<!--  
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-redis</artifactId>
+		</dependency>
+		-->
+		<!--  delete
+		<dependency>
+          <groupId>org.springframework.boot</groupId>  
+          <artifactId>spring-boot-starter-redis</artifactId>
+      	</dependency>
+      	 -->
+		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<!-- 
+		 <dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-config-client</artifactId>
+		</dependency>
+		 -->
+		 <!-- eureka -->
+		<dependency>
+	        <groupId>org.springframework.cloud</groupId>
+	        <artifactId>spring-cloud-starter-eureka</artifactId>
+	    </dependency>
+	    <dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-eureka-server</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-server</artifactId>
+		</dependency>
+		<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        
+        <dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-configuration-processor</artifactId>
+		    <optional>true</optional>
+		</dependency>
+			
+		<!--  
+		<dependency>
+	      <groupId>com.sun.jersey</groupId>
+	      <artifactId>jersey-bundle</artifactId>
+	      <version>1.19.4</version>
+	    </dependency>
+	    <dependency>
+	      <groupId>com.fasterxml.jackson.dataformat</groupId>
+	      <artifactId>jackson-dataformat-xml</artifactId>
+	    </dependency> 
+	     -->
+	</dependencies>
+
+
+</project>
