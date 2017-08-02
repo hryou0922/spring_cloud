@@ -10,7 +10,7 @@ public class SimpleController {
 	private SimpleConfig simpleConfig; // 
 	
     @RequestMapping(value = "/simple")
-    String simple() {   
+    public String simple() {   
         return "simple" + simpleConfig;
     }
 }

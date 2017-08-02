@@ -7,6 +7,7 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 /**
  * 注册管理器（eureka服务器）
  * 	EurekaClientConfigBean
+ * 	查看当前注册的服务：http://localhost:8761/
  * @author Administrator
  *
  */
