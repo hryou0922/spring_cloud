@@ -17,7 +17,7 @@ public class SimpleService {
 	private RestTemplate restTemplate;
 	
 	@Value("${service.url}")
-	private String serviceUrl; 
+	private String serviceUrl;
 
 	@HystrixCommand(fallbackMethod = "fallback")
 	public String call() {
