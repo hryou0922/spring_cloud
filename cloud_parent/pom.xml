@@ -29,7 +29,7 @@
 	        <dependency>
 	            <groupId>org.springframework.cloud</groupId>
 	            <artifactId>spring-cloud-dependencies</artifactId>
-	            <version>Dalston.SR1</version>
+	            <version>Dalston.SR2</version>
 	            <type>pom</type>
 	            <scope>import</scope>
 	        </dependency>
@@ -69,7 +69,7 @@
 		<dependency>
 		    <groupId>com.alibaba</groupId>
 		    <artifactId>fastjson</artifactId>
-		    <version>1.2.34</version>
+		    <version>1.2.37</version>
 		</dependency>
 		
 		<dependency>

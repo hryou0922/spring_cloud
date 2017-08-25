@@ -1,24 +1,27 @@
-package com.hry.spring.cloud.service.simple;
+package com.hry.spring.cloud.consumer.feign;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.web.HttpMessageConverters;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.HttpMessageConverter;
 
+import com.alibaba.fastjson.serializer.SerializerFeature;
 import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 
 @SpringBootApplication
-@EnableDiscoveryClient // 注册服务到eureka服务器
-public class SimpleCloudApplication {
+@EnableEurekaClient // 配置本应用将使用服务注册和服务发现
+// @EnableHystrix // 启用断路器，断路器依赖于服务注册和发现。
+@EnableFeignClients // 启用feign REST访问
+public class FeignCloudConsumerApplication {
 
 	public static void main(String[] args) {
-		// 如果执行成功，会有如下打印信息： Located property source: CompositePropertySource
-		// [name='configService', propertySources=[MapPropertySource
-		// [name='https://github.com/hryou0922/spring_cloud.git/cloudconfig/cloud-config-dev.properties']]]
-		SpringApplication.run(SimpleCloudApplication.class, args);
+		args = new String[1];
+		args[0] = "--spring.profiles.active=feign";
+		SpringApplication.run(FeignCloudConsumerApplication.class, args);
 	}
 	
 	/**
@@ -29,7 +32,7 @@ public class SimpleCloudApplication {
 	public HttpMessageConverters fastJsonHttpMessageConverters() {
 		FastJsonHttpMessageConverter fastConverter = new FastJsonHttpMessageConverter();
 		FastJsonConfig fastJsonConfig = new FastJsonConfig();
-	//	fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
+		fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
 		fastConverter.setFastJsonConfig(fastJsonConfig);
 		HttpMessageConverter<?> converter = fastConverter;
 		return new HttpMessageConverters(converter);

@@ -2,7 +2,13 @@ package com.hry.spring.cloud.registrationcenter.simple;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.web.HttpMessageConverters;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.context.annotation.Bean;
+import org.springframework.http.converter.HttpMessageConverter;
+
+import com.alibaba.fastjson.support.config.FastJsonConfig;
+import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 
 /**
  * 注册中心
@@ -18,4 +24,18 @@ public class SimpleCloudRegistrationCenterApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SimpleCloudRegistrationCenterApplication.class, args);
 	}
+	
+//	/**
+//	 * 使用fastjson做为json的解析器
+//	 * @return
+//	 */
+//	@Bean
+//	public HttpMessageConverters fastJsonHttpMessageConverters() {
+//		FastJsonHttpMessageConverter fastConverter = new FastJsonHttpMessageConverter();
+//		FastJsonConfig fastJsonConfig = new FastJsonConfig();
+//	//	fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
+//		fastConverter.setFastJsonConfig(fastJsonConfig);
+//		HttpMessageConverter<?> converter = fastConverter;
+//		return new HttpMessageConverters(converter);
+//	}
 }

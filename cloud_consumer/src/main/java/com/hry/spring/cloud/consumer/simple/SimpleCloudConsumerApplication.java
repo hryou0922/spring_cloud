@@ -14,6 +14,8 @@ import org.springframework.web.client.RestTemplate;
 public class SimpleCloudConsumerApplication {
 
 	public static void main(String[] args) {
+		args = new String[1];
+		args[0] = "--spring.profiles.active=simple";
 		SpringApplication.run(SimpleCloudConsumerApplication.class, args);
 	}
 	
