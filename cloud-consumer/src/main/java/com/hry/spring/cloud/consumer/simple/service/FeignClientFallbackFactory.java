@@ -1,9 +1,9 @@
-package com.hry.spring.cloud.consumer.feign.service;
+package com.hry.spring.cloud.consumer.simple.service;
 
 import org.springframework.stereotype.Component;
 
-import com.hry.spring.cloud.consumer.feign.dto.SimpleDto;
-import com.hry.spring.cloud.consumer.feign.dto.SimpleQry;
+import com.hry.spring.cloud.consumer.simple.dto.SimpleDto;
+import com.hry.spring.cloud.consumer.simple.dto.SimpleQry;
 
 import feign.hystrix.FallbackFactory;
 
@@ -13,11 +13,11 @@ import feign.hystrix.FallbackFactory;
  *
  */
 @Component
-public class FeignClientFallbackFactory implements FallbackFactory<IFeignClient> {
+public class FeignClientFallbackFactory implements FallbackFactory<ISimpleClient> {
 
 	@Override
-	public IFeignClient create(Throwable arg0) {
-		return new IFeignClient() {
+	public ISimpleClient create(Throwable arg0) {
+		return new ISimpleClient() {
 			@Override
 			public String call() {
 				arg0.printStackTrace();

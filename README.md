@@ -37,7 +37,7 @@
 服务消费者
 测试地址： 
 - 无参请求：http://127.0.0.1:8701/feign-client-call
-- 带单个参数请求：http://127.0.0.1:8701/feign-client-call-with-qry
+- 带单个参数请求：http://127.0.0.1:8701/feign-client-call/transparentString
 - 带多个参数请求：http://127.0.0.1:8701/feign-client-call-with-qry
 
 

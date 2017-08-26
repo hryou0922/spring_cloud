@@ -1,12 +1,12 @@
-package com.hry.spring.cloud.consumer.feign.service;
+package com.hry.spring.cloud.consumer.simple.service;
 
 import org.springframework.stereotype.Component;
 
-import com.hry.spring.cloud.consumer.feign.dto.SimpleDto;
-import com.hry.spring.cloud.consumer.feign.dto.SimpleQry;
+import com.hry.spring.cloud.consumer.simple.dto.SimpleDto;
+import com.hry.spring.cloud.consumer.simple.dto.SimpleQry;
 
 @Component
-public class FeignClientFallback implements IFeignClient{
+public class FeignClientFallback implements ISimpleClient {
 
 	@Override
 	public String call() {

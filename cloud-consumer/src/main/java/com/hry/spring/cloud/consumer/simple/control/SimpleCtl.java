@@ -1,19 +1,19 @@
-package com.hry.spring.cloud.consumer.feign.control;
+package com.hry.spring.cloud.consumer.simple.control;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hry.spring.cloud.consumer.feign.dto.SimpleDto;
-import com.hry.spring.cloud.consumer.feign.dto.SimpleQry;
-import com.hry.spring.cloud.consumer.feign.service.IFeignClient;
+import com.hry.spring.cloud.consumer.simple.dto.SimpleDto;
+import com.hry.spring.cloud.consumer.simple.dto.SimpleQry;
+import com.hry.spring.cloud.consumer.simple.service.ISimpleClient;
 
 @RestController
 public class SimpleCtl {
 	
 	@Autowired
-	private IFeignClient feignClient;
+	private ISimpleClient feignClient;
 	
 	@RequestMapping(value="/feign-client-call")
     public String simpleClientCall(){

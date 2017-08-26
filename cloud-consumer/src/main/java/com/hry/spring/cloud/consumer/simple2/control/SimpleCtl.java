@@ -1,10 +1,10 @@
-package com.hry.spring.cloud.consumer.simple.control;
+package com.hry.spring.cloud.consumer.simple2.control;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hry.spring.cloud.consumer.simple.service.SimpleService;
+import com.hry.spring.cloud.consumer.simple2.service.SimpleService;
 
 @RestController
 public class SimpleCtl {

@@ -16,12 +16,12 @@ import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 @EnableEurekaClient // 配置本应用将使用服务注册和服务发现
 // @EnableHystrix // 启用断路器，断路器依赖于服务注册和发现。
 @EnableFeignClients // 启用feign REST访问
-public class FeignCloudConsumerApplication {
+public class SimpleCloudConsumerApplication {
 
 	public static void main(String[] args) {
 		args = new String[1];
 		args[0] = "--spring.profiles.active=simple";
-		SpringApplication.run(FeignCloudConsumerApplication.class, args);
+		SpringApplication.run(SimpleCloudConsumerApplication.class, args);
 	}
 	
 	/**

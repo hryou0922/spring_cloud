@@ -1,4 +1,4 @@
-package com.hry.spring.cloud.consumer.simple.service;
+package com.hry.spring.cloud.consumer.simple2.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

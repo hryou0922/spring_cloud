@@ -1,4 +1,4 @@
-package com.hry.spring.cloud.consumer.feign.dto;
+package com.hry.spring.cloud.consumer.simple.dto;
 
 public class SimpleDto {
 	private String id;

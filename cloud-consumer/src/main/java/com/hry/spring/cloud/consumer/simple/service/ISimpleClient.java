@@ -22,7 +22,7 @@ import com.hry.spring.cloud.consumer.simple.dto.SimpleQry;
 // fallback和fallbackFactory只能有一个，fallback会覆盖fallbackFactory的实现
 // @FeignClient(name="${feign.servicename}", fallback = FeignClientFallback.class)
 @FeignClient(name="${feign.servicename}", fallbackFactory=FeignClientFallbackFactory.class)
-public interface IFeignClient {
+public interface ISimpleClient {
 
 	@RequestMapping(method = RequestMethod.GET, value = "/simple")
 	String call();
