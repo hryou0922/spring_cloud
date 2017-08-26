@@ -1,4 +1,4 @@
-package com.hry.spring.cloud.consumer.feign.service;
+package com.hry.spring.cloud.consumer.simple.service;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.hry.spring.cloud.consumer.feign.dto.SimpleDto;
-import com.hry.spring.cloud.consumer.feign.dto.SimpleQry;
+import com.hry.spring.cloud.consumer.simple.dto.SimpleDto;
+import com.hry.spring.cloud.consumer.simple.dto.SimpleQry;
 
 /**
  * 通过feign访问服务,

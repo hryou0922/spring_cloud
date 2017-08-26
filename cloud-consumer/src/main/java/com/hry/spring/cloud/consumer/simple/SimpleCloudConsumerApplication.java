@@ -2,26 +2,39 @@ package com.hry.spring.cloud.consumer.simple;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.boot.autoconfigure.web.HttpMessageConverters;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.hystrix.EnableHystrix;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
-import org.springframework.web.client.RestTemplate;
+import org.springframework.http.converter.HttpMessageConverter;
+
+import com.alibaba.fastjson.serializer.SerializerFeature;
+import com.alibaba.fastjson.support.config.FastJsonConfig;
+import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 
 @SpringBootApplication
 @EnableEurekaClient // 配置本应用将使用服务注册和服务发现
-@EnableHystrix // 启用断路器，断路器依赖于服务注册和发现。
-public class SimpleCloudConsumerApplication {
+// @EnableHystrix // 启用断路器，断路器依赖于服务注册和发现。
+@EnableFeignClients // 启用feign REST访问
+public class FeignCloudConsumerApplication {
 
 	public static void main(String[] args) {
 		args = new String[1];
 		args[0] = "--spring.profiles.active=simple";
-		SpringApplication.run(SimpleCloudConsumerApplication.class, args);
+		SpringApplication.run(FeignCloudConsumerApplication.class, args);
 	}
 	
-	@LoadBalanced // 必须加上引注解，否则不会去注册中心将  "http://cloud-simple-service/simple" 里的cloud-simple-service转化为真实的ip和端口
+	/**
+	 * 使用fastjson做为json的解析器
+	 * @return
+	 */
 	@Bean
-	public RestTemplate restTemplate() {
-		return new RestTemplate();
+	public HttpMessageConverters fastJsonHttpMessageConverters() {
+		FastJsonHttpMessageConverter fastConverter = new FastJsonHttpMessageConverter();
+		FastJsonConfig fastJsonConfig = new FastJsonConfig();
+		fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
+		fastConverter.setFastJsonConfig(fastJsonConfig);
+		HttpMessageConverter<?> converter = fastConverter;
+		return new HttpMessageConverters(converter);
 	}
 }
