@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-center" />
+        <module name="cloud-consumer" />
+        <module name="cloud-registration-center" />
+        <module name="cloud-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config-center" target="1.8" />
+      <module name="cloud-consumer" target="1.8" />
+      <module name="cloud-parent" target="1.8" />
+      <module name="cloud-registration-center" target="1.8" />
+      <module name="cloud-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
