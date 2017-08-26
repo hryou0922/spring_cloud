@@ -3,7 +3,7 @@
 # cloud-parent
 定义公共的POM.XML
     
-# cloud_config_git
+# cloud-config-git
 存储配置文件，用于配置中心通过git方式读取数据
 
 # cloud-config-center
