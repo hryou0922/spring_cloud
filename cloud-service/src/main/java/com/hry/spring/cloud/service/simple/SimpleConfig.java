@@ -30,7 +30,6 @@ public class SimpleConfig {
 	
 	@Override
 	public String toString(){
-	//	return JSON.toJSONString(this);
 		return "name="+name+" | age=" + age;
 	}
 }

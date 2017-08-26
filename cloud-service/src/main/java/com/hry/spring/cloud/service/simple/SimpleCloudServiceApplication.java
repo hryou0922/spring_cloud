@@ -12,13 +12,16 @@ import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 
 @SpringBootApplication
 @EnableDiscoveryClient // 注册服务到eureka服务器
-public class SimpleCloudApplication {
+public class SimpleCloudServiceApplication {
 
 	public static void main(String[] args) {
-		// 如果执行成功，会有如下打印信息： Located property source: CompositePropertySource
+		// 如果读取远程服务器上读取配置文件，如果执行成功，会有如下打印信息：
+        // Located property source: CompositePropertySource
 		// [name='configService', propertySources=[MapPropertySource
 		// [name='https://github.com/hryou0922/spring_cloud.git/cloudconfig/cloud-config-dev.properties']]]
-		SpringApplication.run(SimpleCloudApplication.class, args);
+		args = new String[1];
+		args[0] = "--spring.profiles.active=simple";
+		SpringApplication.run(SimpleCloudServiceApplication.class, args);
 	}
 	
 	/**

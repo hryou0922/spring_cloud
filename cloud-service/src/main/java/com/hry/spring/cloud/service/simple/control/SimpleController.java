@@ -1,5 +1,6 @@
-package com.hry.spring.cloud.service.simple;
+package com.hry.spring.cloud.service.simple.control;
 
+import com.hry.spring.cloud.service.simple.service.SimpleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;

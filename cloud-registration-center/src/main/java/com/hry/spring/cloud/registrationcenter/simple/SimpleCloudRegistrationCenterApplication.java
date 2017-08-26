@@ -22,20 +22,9 @@ import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 public class SimpleCloudRegistrationCenterApplication {
 
 	public static void main(String[] args) {
+		args = new String[1];
+		args[0] = "--spring.profiles.active=simple";
 		SpringApplication.run(SimpleCloudRegistrationCenterApplication.class, args);
 	}
-	
-//	/**
-//	 * 使用fastjson做为json的解析器
-//	 * @return
-//	 */
-//	@Bean
-//	public HttpMessageConverters fastJsonHttpMessageConverters() {
-//		FastJsonHttpMessageConverter fastConverter = new FastJsonHttpMessageConverter();
-//		FastJsonConfig fastJsonConfig = new FastJsonConfig();
-//	//	fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
-//		fastConverter.setFastJsonConfig(fastJsonConfig);
-//		HttpMessageConverter<?> converter = fastConverter;
-//		return new HttpMessageConverters(converter);
-//	}
+
 }

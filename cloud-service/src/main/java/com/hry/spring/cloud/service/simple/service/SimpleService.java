@@ -1,7 +1,8 @@
-package com.hry.spring.cloud.service.simple;
+package com.hry.spring.cloud.service.simple.service;
 
 import java.util.Random;
 
+import com.hry.spring.cloud.service.simple.SimpleConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +12,7 @@ import com.hry.spring.cloud.service.simple.dto.SimpleQry;
 @Service
 public class SimpleService {
 	@Autowired
-	private SimpleConfig simpleConfig; // 
+	private SimpleConfig simpleConfig; //
 	
 	public SimpleDto simple(){
 		SimpleDto simpleDto = new SimpleDto();
