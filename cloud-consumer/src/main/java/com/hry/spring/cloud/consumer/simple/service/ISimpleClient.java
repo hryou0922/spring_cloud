@@ -12,7 +12,7 @@ import com.hry.spring.cloud.consumer.simple.dto.SimpleQry;
 /**
  * 通过feign访问服务,
  * 	name:指定服务的名称
- * 	fallback：指定短路器
+ * 	fallback：指定断路器
  * 
  *  feign默认已经使用ribbion做为负载均衡： FeignRibbonClientAutoConfiguration
  * 	
@@ -20,8 +20,8 @@ import com.hry.spring.cloud.consumer.simple.dto.SimpleQry;
  *
  */
 // fallback和fallbackFactory只能有一个，fallback会覆盖fallbackFactory的实现
-// @FeignClient(name="${feign.servicename}", fallback = FeignClientFallback.class)
-@FeignClient(name="${feign.servicename}", fallbackFactory=FeignClientFallbackFactory.class)
+@FeignClient(name="${feign.servicename}", fallback = FeignClientFallback.class)
+//@FeignClient(name="${feign.servicename}", fallbackFactory=FeignClientFallbackFactory.class)
 public interface ISimpleClient {
 
 	@RequestMapping(method = RequestMethod.GET, value = "/simple")

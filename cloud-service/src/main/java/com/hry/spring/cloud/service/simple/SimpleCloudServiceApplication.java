@@ -11,7 +11,7 @@ import com.alibaba.fastjson.support.config.FastJsonConfig;
 import com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter;
 
 @SpringBootApplication
-@EnableDiscoveryClient // 注册服务到eureka服务器
+@EnableDiscoveryClient // 通过eureka注册服务注册中心
 public class SimpleCloudServiceApplication {
 
 	public static void main(String[] args) {
