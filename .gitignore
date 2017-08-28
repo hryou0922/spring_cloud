@@ -21,7 +21,7 @@ Servers
 .recommenders
 
 # intelj idea
-.idea
-.idea/
-.idea/*
+#.idea
+#.idea/
+#.idea/*
 out
