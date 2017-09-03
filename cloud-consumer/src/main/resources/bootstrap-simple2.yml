@@ -1,0 +1,21 @@
+
+spring:
+  cloud:
+    config:
+      # 配置服务器的地址
+      # uri: http://127.0.0.1:10888
+      # 配置远程服务上文件名称
+      name: cloud-config
+      profile: ${config.profile:dev}
+      discovery:
+        service-id: config-config-gitsimple2
+        enabled: true
+
+# 服务器注册服务器的zone
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:10761/eureka/
+  instance:
+      prefer-ip-address: true
+

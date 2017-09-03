@@ -1,0 +1,19 @@
+server:
+  port: 10761
+## eureka ： 主要配置属性在EurekaInstanceConfigBean和EurekaClientConfigBean中
+eureka:
+  client:
+    # 关闭eureka client
+    # enabled: false
+    # 注册自身到eureka服务器
+    registerWithEureka: true
+    # 表示是否从eureka服务器获取注册信息
+    fetchRegistry: false
+# 设置eureka服务器所在的地址，查询服务和注册服务都需要依赖这个地址
+    serviceUrl:
+      defaultZone: http://127.0.0.1:${server.port}/eureka/
+  instance:
+      prefer-ip-address: true
+spring:
+  application:
+    name: cloud-registration-center

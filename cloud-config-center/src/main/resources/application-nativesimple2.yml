@@ -1,0 +1,24 @@
+# 端口
+server:
+  port: 10888
+
+spring:
+  profiles:
+    # native：启动从本地读取配置文件，必须指定active的值，才可以使用本地文件配置模式
+    active: native
+    # 自定义配置文件路径
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:/config/simple2/
+  application:
+    name: config-config-gitsimple2
+
+# 服务器注册服务器的zone
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:10761/eureka/
+  instance:
+      prefer-ip-address: true

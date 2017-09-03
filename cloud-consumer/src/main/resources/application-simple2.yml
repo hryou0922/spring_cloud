@@ -1,0 +1,19 @@
+# port
+server:
+  port: 10701
+# debug=true
+
+
+spring:
+  application:
+    # 本服务注册到注册服务器时的名称
+    name: simple_consumer
+
+feign:
+  hystrix:
+    # 启动hystrix，通过HystrixFeignConfiguration查看配置，hystrix默认不启动
+    enabled=true
+  # 要访问服务的名称
+  servicename: cloud-simple-service
+
+

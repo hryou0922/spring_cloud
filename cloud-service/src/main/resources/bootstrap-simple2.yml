@@ -1,0 +1,22 @@
+spring:
+  cloud:
+    # 配置服务器的地址
+    config:
+      # uri: http://127.0.0.1:8888
+      # 通过注册服务
+      discovery:
+        enabled: true
+        service-id: config-config-gitsimple2
+      # 要读取配置文件读取的值
+      name: cloud-config
+      profile: ${spring.profiles.active:dev}
+
+
+eureka:
+  client:
+    serviceUrl:
+      # 服务器注册/获取服务器的zone
+      defaultZone: http://127.0.0.1:10761/eureka/
+  instance:
+    prefer-ip-address: true
+

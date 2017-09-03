@@ -1,0 +1,5 @@
+# 设置false后，使用http://localhost:8888/env查看服务信息
+management:
+  security:
+    enabled: false
+
