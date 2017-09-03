@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3439d8c0-5498-478e-b665-23c6d7932b91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-nativesimple2.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-test.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple2.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/resources/bootstrap-simple2.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_processor_1_5_2_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_7_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-nativesimple.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple2/Simple2CloudConsumerApplication.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple2/control/SimpleCtl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple2/service/SimpleService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple2.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-consumer/src/test/java/com/hry/spring/cloud/consumer/CloudConsumerApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-registration-center/src/test/java/com/hry/spring/cloud/eurekaserver/CloudEurekaServerApplicationTests.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-service/src/main/resources/application-simple.properties" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-center/cloud-config-center.iml" afterPath="$PROJECT_DIR$/cloud-config-center/cloud-config-center.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-center/pom.xml" afterPath="$PROJECT_DIR$/cloud-config-center/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" afterPath="$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-consumer/pom.xml" afterPath="$PROJECT_DIR$/cloud-consumer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-parent/cloud-parent.iml" afterPath="$PROJECT_DIR$/cloud-parent/cloud-parent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-parent/pom.xml" afterPath="$PROJECT_DIR$/cloud-parent/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-registration-center/cloud-registration-center.iml" afterPath="$PROJECT_DIR$/cloud-registration-center/cloud-registration-center.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-registration-center/pom.xml" afterPath="$PROJECT_DIR$/cloud-registration-center/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-service/cloud-service.iml" afterPath="$PROJECT_DIR$/cloud-service/cloud-service.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-service/pom.xml" afterPath="$PROJECT_DIR$/cloud-service/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple/git/CloudGitConfigServerApplication.java" afterPath="$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple2/git/CloudGitConfigServerApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple/nativ/CloudNativeConfigServerApplication.java" afterPath="$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple2/nativ/CloudNativeConfigServerApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-config-center/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/cloud-config-center/src/main/resources/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple/SimpleCloudConsumerApplication.java" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer2/simple/SimpleCloudConsumerApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple/control/SimpleCtl.java" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer2/simple/control/SimpleCtl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple/dto/SimpleDto.java" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer2/simple/dto/SimpleDto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple/dto/SimpleQry.java" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer2/simple/dto/SimpleQry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple/service/FeignClientFallback.java" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer2/simple/service/FeignClientFallback.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple/service/FeignClientFallbackFactory.java" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer2/simple/service/FeignClientFallbackFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple/service/ISimpleClient.java" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer2/simple/service/ISimpleClient.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-registration-center/src/main/java/com/hry/spring/cloud/registrationcenter/simple/SimpleCloudRegistrationCenterApplication.java" afterPath="$PROJECT_DIR$/cloud-registration-center/src/main/java/com/hry/spring/cloud/registrationcenter/simple2/SimpleCloudRegistrationCenterApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple.properties" afterPath="$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple2.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-registration-center/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/cloud-registration-center/src/main/resources/application.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple/SimpleCloudServiceApplication.java" afterPath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/SimpleCloudServiceApplication.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple/SimpleConfig.java" afterPath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/SimpleConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple/control/SimpleController.java" afterPath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/control/SimpleController.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple/dto/SimpleDto.java" afterPath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/dto/SimpleDto.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple/dto/SimpleQry.java" afterPath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/dto/SimpleQry.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple/service/SimpleService.java" afterPath="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/service/SimpleService.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-service/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/cloud-service/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-test.yml" afterPath="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-simple2.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/cloud-parent/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config-center/target/" />
@@ -74,26 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="SimpleCloudConsumerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer2/simple/SimpleCloudConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleCloudRegistrationCenterApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-registration-center/src/main/java/com/hry/spring/cloud/registrationcenter/simple2/SimpleCloudRegistrationCenterApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-registration-center/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,28 +33,68 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="application-simple2.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple2.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleCloudServiceApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/SimpleCloudServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloudGitConfigServerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple2/git/CloudGitConfigServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="application-gitsimple2.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="324">
+              <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-simple2.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="30" lean-forward="false" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="-78">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/application.yml">
+      <file leaf-file-name="cloud-config-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cloud-config-test.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git/simple/cloud-config-test.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -134,41 +103,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap-simple2.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml">
+      <file leaf-file-name="cloud-config-simple2.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-simple2.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="54">
+              <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application-simple2.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple2.yml">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-simple2.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/resources/bootstrap-simple2.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-simple2.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple2.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="81">
+              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -196,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/config/simple/cloud-config-dev.properties" />
         <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/config/simple/cloud-config-test.properties" />
         <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-nativesimple.properties" />
         <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/simple/FeignCloudConsumerApplication.java" />
@@ -247,6 +195,7 @@
         <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/bootstrap-simple2.yml" />
         <option value="$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple2.yml" />
         <option value="$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-simple2.yml" />
       </list>
     </option>
   </component>
@@ -270,7 +219,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -349,15 +298,12 @@
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-config-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config-git" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-config-git" type="462c0819:PsiDirectoryNode" />
+              <item name="simple" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -367,39 +313,6 @@
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -407,29 +320,29 @@
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -437,144 +350,24 @@
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simple2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:1.5.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:1.5.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-1.5.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:1.5.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-1.5.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:1.5.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-1.5.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.boot:spring-boot:1.5.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-boot-1.5.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="boot" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -781,9 +574,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudConsumerApplication (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudConsumerApplication" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.CloudGitConfigServerApplication (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.CloudGitConfigServerApplication (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudConsumerApplication (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudConsumerApplication" />
         <item index="3" class="java.lang.String" itemvalue="Spring Boot.CloudNativeConfigServerApplication2" />
         <item index="4" class="java.lang.String" itemvalue="Spring Boot.CloudGitConfigServerApplication (1)" />
       </list>
@@ -807,12 +600,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503671360009</updated>
       <workItem from="1503671361459" duration="4354000" />
-      <workItem from="1503752108366" duration="30369000" />
+      <workItem from="1503752108366" duration="31306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34723000" />
+    <option name="totallyTimeSpent" value="35660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -824,7 +617,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -842,10 +636,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39103362" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2777086" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28671706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28671706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30012453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -972,14 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-git/simple/cloud-config-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-parent/cloud-parent.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1066,14 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/dev_tool/maven/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar!/org/springframework/boot/context/config/ConfigFileApplicationListener.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1090,14 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-config-client/1.3.2.RELEASE/spring-cloud-config-client-1.3.2.RELEASE.jar!/org/springframework/cloud/config/client/ConfigClientProperties.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1106,22 +876,6 @@
             <element signature="e#2464#2465#0" expanded="true" />
             <element signature="e#2498#2499#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,14 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="48" column="13" lean-forward="false" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/SimpleCloudServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1213,14 +959,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple2/git/CloudGitConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application-nativesimple2.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -1244,14 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1314,8 +1044,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple2.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="84">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/SimpleCloudServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple2/git/CloudGitConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git/simple/cloud-config-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-simple2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
           <folding />
         </state>
       </provider>
