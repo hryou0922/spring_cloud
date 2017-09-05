@@ -1,0 +1,4 @@
+simple:
+  config:
+    name: git2-default-simple2
+    age: 2

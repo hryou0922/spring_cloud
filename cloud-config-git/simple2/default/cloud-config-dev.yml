@@ -1,4 +1,4 @@
 simple:
   config:
-    name: git2-dev
+    name: git2-default-dev
     age: 112

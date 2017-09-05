@@ -7,8 +7,25 @@ spring:
     config:
       server:
         git:
+          # 1. 单库：配置文件只搜索url目录下的searchPaths
+          # uri: https://github.com/hryou0922/spring_cloud.git
+          # searchPaths: cloud-config-git/simple2
+          # 2. 多库：
           uri: https://github.com/hryou0922/spring_cloud.git
           searchPaths: cloud-config-git/simple2
+          repos:
+            simple:
+              # 匹配 application = simple
+              patten: simple
+              uri: https://github.com/hryou0922/spring_cloud/tree/master/cloud-config-git/simple
+            special:
+              # 匹配 application like testapp* 和 profile like dev的记录
+              pattern: testapp*/dev,*testapp*/dev*
+              uri: https://github.com/hryou0922/spring_cloud/tree/master/cloud-config-git
+            local:
+              # 匹配 application like local*
+              pattern: local*
+              uri: file:/home/configsvc/config-repo
   application:
     name: config-config-gitsimple2
 # 服务器注册服务器的zone
