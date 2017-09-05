@@ -17,11 +17,11 @@ spring:
             simple:
               # 匹配 application = simple
               patten: simple
-              uri: https://github.com/hryou0922/spring_cloud/tree/master/cloud-config-git/simple
+              uri: https://github.com/hryou0922/spring_cloud/tree/master/cloud-config-git/simple2/configsimple
             special:
-              # 匹配 application like testapp* 和 profile like dev的记录
-              pattern: testapp*/dev,*testapp*/dev*
-              uri: https://github.com/hryou0922/spring_cloud/tree/master/cloud-config-git
+              # 匹配 application like special* 和 profile like special的记录
+              pattern: special*/dev,*special*/dev*
+              uri: https://github.com/hryou0922/spring_cloud/tree/master/cloud-config-git/simple2/configspecial
             local:
               # 匹配 application like local*
               pattern: local*

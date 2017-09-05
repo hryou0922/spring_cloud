@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3439d8c0-5498-478e-b665-23c6d7932b91" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-config-git/simple2/configsimple/simple-test.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-config-git/simple2/configspecial/simple-dev.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-config-git/simple2/default/cloud-config-simple2.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-service/src/test/java/com/hry/spring/cloud/service/CloudServiceApplicationTests.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml" afterPath="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml" afterPath="$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-dev.yml" afterPath="$PROJECT_DIR$/cloud-config-git/simple2/default/cloud-config-dev.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-simple2.yml" afterPath="$PROJECT_DIR$/cloud-config-git/simple2/configsimple/simple-test.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml" afterPath="$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-config-git/simple2/configsimple/simple-test.yml" afterPath="$PROJECT_DIR$/cloud-config-git/simple2/configsimple/cloud-config-test.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-config-git/simple2/configspecial/simple-dev.yml" afterPath="$PROJECT_DIR$/cloud-config-git/simple2/configspecial/cloud-config-dev.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/cloud-parent/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config-center/target/" />
@@ -30,22 +26,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="application-gitsimple2.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="application-gitsimple2.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="296">
+              <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="simple-dev.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/configspecial/simple-dev.yml">
+      <file leaf-file-name="bootstrap-simple2.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="135">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="189">
+                <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="36" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -60,74 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloud-config-simple2.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/default/cloud-config-simple2.yml">
+      <file leaf-file-name="cloud-config-dev.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/configspecial/cloud-config-dev.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cloud-config-test.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/configsimple/cloud-config-test.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
               <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="simple-test.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/configsimple/simple-test.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultipleJGitEnvironmentRepository.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-config-server/1.3.2.RELEASE/spring-cloud-config-server-1.3.2.RELEASE.jar!/org/springframework/cloud/config/server/environment/MultipleJGitEnvironmentRepository.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="82" column="92" lean-forward="true" selection-start-line="82" selection-start-column="92" selection-end-line="82" selection-end-column="92" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MultipleJGitEnvironmentRepository.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-config-server/1.3.2.RELEASE/spring-cloud-config-server-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/MultipleJGitEnvironmentRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="241" column="35" lean-forward="true" selection-start-line="241" selection-start-column="35" selection-end-line="241" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JGitEnvironmentRepository.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-config-server/1.3.2.RELEASE/spring-cloud-config-server-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/config/server/environment/JGitEnvironmentRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
-              <caret line="66" column="13" lean-forward="false" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SshUriProperties.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-config-server/1.3.2.RELEASE/spring-cloud-config-server-1.3.2.RELEASE.jar!/org/springframework/cloud/config/server/ssh/SshUriProperties.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="27" column="64" lean-forward="false" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
-              <folding>
-                <element signature="e#876#877#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SshUriProperties.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-config-server/1.3.2.RELEASE/spring-cloud-config-server-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/config/server/ssh/SshUriProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="101">
-              <caret line="59" column="61" lean-forward="false" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -199,13 +155,13 @@
         <option value="$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple2.yml" />
         <option value="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-simple2.yml" />
         <option value="$PROJECT_DIR$/cloud-service/src/test/java/com/hry/spring/cloud/service/CloudServiceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml" />
         <option value="$PROJECT_DIR$/cloud-config-git/simple2/configsimple/simple-test.yml" />
         <option value="$PROJECT_DIR$/cloud-config-git/simple2/configspecial/simple-dev.yml" />
         <option value="$PROJECT_DIR$/cloud-config-git/simple2/default/cloud-config-dev.yml" />
         <option value="$PROJECT_DIR$/cloud-config-git/simple2/default/cloud-config-simple2.yml" />
+        <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml" />
+        <option value="$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml" />
+        <option value="$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml" />
       </list>
     </option>
   </component>
@@ -669,12 +625,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503671360009</updated>
       <workItem from="1503671361459" duration="4354000" />
-      <workItem from="1503752108366" duration="37562000" />
+      <workItem from="1503752108366" duration="37888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41916000" />
+    <option name="totallyTimeSpent" value="42242000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,7 +643,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -705,10 +660,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25902864" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15317559" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28671706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28671706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30012453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -832,17 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="27">
-            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/dev_tool/maven/repository/org/springframework/boot/spring-boot/1.5.2.RELEASE/spring-boot-1.5.2.RELEASE.jar!/org/springframework/boot/context/config/ConfigFileApplicationListener.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -961,14 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple2.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1073,22 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-config-server/1.3.2.RELEASE/spring-cloud-config-server-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/config/server/ssh/SshUri.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -1140,19 +1060,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/configsimple/simple-test.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/default/cloud-config-simple2.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="36" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1164,7 +1119,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/configspecial/simple-dev.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/configspecial/cloud-config-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
@@ -1172,10 +1127,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-config-git/simple2/configsimple/cloud-config-test.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="81">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
           <folding />
         </state>
       </provider>
