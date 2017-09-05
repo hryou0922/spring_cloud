@@ -1,0 +1,4 @@
+simple:
+  config:
+    name: git2-configspecial-dev-test
+    age: 22

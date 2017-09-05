@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  *
  */
 @Configuration
-@ConfigurationProperties(prefix = "simple2.config" ,ignoreUnknownFields = false)
+@ConfigurationProperties(prefix = "simple.config" ,ignoreUnknownFields = false)
 public class SimpleConfig {
 	private String name;
 	private Integer age;

@@ -1,4 +1,4 @@
 simple:
   config:
-    name: git2-configspecial
+    name: git2-configspecial-dev
     age: 22
