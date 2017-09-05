@@ -1,0 +1,4 @@
+simple:
+  config:
+    name: git2-configsimple
+    age: 12

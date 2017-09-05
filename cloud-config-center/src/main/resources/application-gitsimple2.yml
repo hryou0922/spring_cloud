@@ -12,7 +12,7 @@ spring:
           # searchPaths: cloud-config-git/simple2
           # 2. 多库：
           uri: https://github.com/hryou0922/spring_cloud.git
-          searchPaths: cloud-config-git/simple2
+          searchPaths: cloud-config-git/simple2/default
           repos:
             simple:
               # 匹配 application = simple
