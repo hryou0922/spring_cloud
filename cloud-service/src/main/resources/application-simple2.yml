@@ -1,8 +1,5 @@
 # spring.profiles.active=simple
 
-# port
-server:
-  port: 10082
 
 
 

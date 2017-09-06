@@ -28,5 +28,18 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-eureka-client</artifactId>
         </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.retry/spring-retry -->
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
+
     </dependencies>
 </project>

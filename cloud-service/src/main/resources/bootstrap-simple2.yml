@@ -1,20 +1,40 @@
+# port
+server:
+  port: 10082
+
 spring:
   application:
     # 本服务注册到注册到服务器的名称, 这个名称就是后面调用服务时的服务标识符
-    # name: cloud-simple-service
-    name: simple
-    # name: special
+    name: cloud-simple-service
   cloud:
     # 配置服务器的地址
     config:
-      # uri: http://127.0.0.1:8888
+      # uri: http://127.0.0.1:10888
       # 通过注册服务
       discovery:
         enabled: true
         service-id: config-config-gitsimple2
       # 要读取配置文件读取的值
       name: cloud-config
-      # profile: test
+      # 如果不设置此值，则系统设置此值为 spring.profiles.active
+      profile: dev
+      # 可以使用之前的版本。默认值可以是git label, branch name or commit id。可以使用多个Label，多个Label可以使用逗号分隔
+      # label:
+      # true: 如果访问配置中心失败，则停止启动服务
+      fail-fast: true
+      # 配置重试，默认是重试6次，最初是延迟1s再次重试，如果再失败，则延迟1.1*1s、1.1*1.1*1s、… 。可以使用这个配置
+      retry:
+        # 第一次失败，延迟多久重试
+        initial-interval: 2000
+        # 最多重试次数
+        max-attempts: 6
+        # 最大重试间隔
+        max-interval: 4000
+        # 每次重试时间是之前的倍数
+        multiplier: 1.2
+
+
+
 
 
 eureka:

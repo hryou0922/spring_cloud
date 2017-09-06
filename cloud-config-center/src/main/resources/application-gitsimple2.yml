@@ -3,31 +3,23 @@ server:
   port: 10888
 # 指定配置文件所在的git工程路径
 spring:
+  application:
+    name: config-config-gitsimple2
   cloud:
     config:
       server:
         git:
-          # 1. 单库：配置文件只搜索url目录下的searchPaths
-          # uri: https://github.com/hryou0922/spring_cloud.git
-          # searchPaths: cloud-config-git/simple2
-          # 2. 多库：
+          #  配置文件只搜索url目录下的searchPaths
           uri: https://github.com/hryou0922/spring_cloud.git
+          # 指定搜索路径，如果有多个路径则使用,分隔
+          # searchPaths: cloud-config-git/simple2/configspecial,cloud-config-git/simple2/default
           searchPaths: cloud-config-git/simple2/default
-          repos:
-            simple:
-              # 匹配 application = simple
-              patten: simple
-              uri: https://github.com/hryou0922/spring_cloud/tree/master/cloud-config-git/simple2/configsimple
-            special:
-              # 匹配 application like special* 和 profile like special的记录
-              pattern: special*/dev,*special*/dev*
-              uri: https://github.com/hryou0922/spring_cloud/tree/master/cloud-config-git/simple2/configspecial
-            local:
-              # 匹配 application like local*
-              pattern: local*
-              uri: file:/home/configsvc/config-repo
-  application:
-    name: config-config-gitsimple2
+          # 对于使用git,svn做为后端配置，从远程库获取配置文件，需要存储到本地文件
+          basedir: /tmp/spring-cloud-repo
+          # 配置中心通过git从远程git库，有时本地的拷贝被污染，这时配置中心无法从远程库更新本地配置,设置force-pull=true，则强制从远程库中更新本地库
+          force-pull: true
+
+
 # 服务器注册服务器的zone
 eureka:
   client:

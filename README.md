@@ -1,3 +1,6 @@
+# 版本更新
+- 20170827 [Spring cloud系列一 包含所有基本要素的完整Spring Cloud demo](http://blog.csdn.net/hry2015/article/details/77623366) 对应的git代码为[tagv0.1](https://github.com/hryou0922/spring_cloud/tree/v0.1)
+
 # 简单的demo
 介绍springcloud用法 
 - cloud-parent
