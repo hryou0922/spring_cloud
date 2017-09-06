@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3439d8c0-5498-478e-b665-23c6d7932b91" name="Default" comment="" />
+    <list default="true" id="3439d8c0-5498-478e-b665-23c6d7932b91" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.MD" afterPath="$PROJECT_DIR$/README.MD" />
+    </list>
     <ignored path="$PROJECT_DIR$/cloud-parent/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config-center/target/" />
     <ignored path="$PROJECT_DIR$/cloud-consumer/target/" />
@@ -60,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="13">
-              <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="41" selection-end-column="21" />
+            <state relative-caret-position="553">
+              <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -89,6 +91,29 @@
                 <element signature="e#9588#9589#0" expanded="true" />
                 <element signature="e#9617#9618#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.MD">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="27">
+                <caret line="1" column="105" lean-forward="false" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,13 +186,13 @@
         <option value="$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml" />
         <option value="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/SimpleCloudServiceApplication_test.java" />
         <option value="$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple2/git/CloudGitConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-nativesimple2.yml" />
         <option value="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/SimpleCloudServiceApplication.java" />
         <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml" />
         <option value="$PROJECT_DIR$/cloud-service/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml" />
+        <option value="$PROJECT_DIR$/README.MD" />
       </list>
     </option>
   </component>
@@ -283,70 +308,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-server:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-server:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-server-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-server:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-server-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-server:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-server-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="environment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-config-server:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-config-server-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -597,12 +558,12 @@
       <option name="presentableId" value="Default" />
       <updated>1503671360009</updated>
       <workItem from="1503671361459" duration="4354000" />
-      <workItem from="1503752108366" duration="49611000" />
+      <workItem from="1503752108366" duration="50058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53965000" />
+    <option name="totallyTimeSpent" value="54412000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,6 +576,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -635,7 +597,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32004982" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28671706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28671706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30012453" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -678,14 +640,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-config-server/1.3.2.RELEASE/spring-cloud-config-server-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/config/server/ssh/SshUriProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="59" column="61" lean-forward="false" selection-start-line="59" selection-start-column="61" selection-end-line="59" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-config-server/1.3.2.RELEASE/spring-cloud-config-server-1.3.2.RELEASE.jar!/org/springframework/cloud/config/server/ssh/SshUriProperties.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -940,17 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1106,8 +1049,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="41" selection-end-column="21" />
+        <state relative-caret-position="553">
+          <caret line="37" column="52" lean-forward="false" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="27">
+            <caret line="1" column="105" lean-forward="false" selection-start-line="1" selection-start-column="105" selection-end-line="1" selection-end-column="105" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
