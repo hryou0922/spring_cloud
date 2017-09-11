@@ -33,10 +33,6 @@ spring:
         # 每次重试时间是之前的倍数
         multiplier: 1.2
 
-
-
-
-
 eureka:
   client:
     serviceUrl:

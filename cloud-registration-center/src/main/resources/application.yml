@@ -1,4 +1,4 @@
-# 设置false后，使用http://localhost:8888/env查看服务信息
+# 璁剧疆false鍚庯紝浣跨敤http://localhost:8888/env鏌ョ湅鏈嶅姟淇℃伅
 management:
   security:
     enabled: false

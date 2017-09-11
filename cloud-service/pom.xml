@@ -13,7 +13,7 @@
     <artifactId>cloudservice</artifactId>
 
     <dependencies>
-
+        <!-- 配置客户端 -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-config-client</artifactId>

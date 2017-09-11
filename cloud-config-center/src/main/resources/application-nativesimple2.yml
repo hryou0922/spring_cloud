@@ -1,12 +1,12 @@
-# ¶Ë¿Ú
+# ç«¯å£
 server:
   port: 10888
 
 spring:
   profiles:
-    # native£ºÆô¶¯´Ó±¾µØ¶ÁÈ¡ÅäÖÃÎÄ¼ş£¬±ØĞëÖ¸¶¨activeµÄÖµ£¬²Å¿ÉÒÔÊ¹ÓÃ±¾µØÎÄ¼şÅäÖÃÄ£Ê½
+    # nativeï¼šå¯åŠ¨ä»æœ¬åœ°è¯»å–é…ç½®æ–‡ä»¶ï¼Œå¿…é¡»æŒ‡å®šactiveçš„å€¼ï¼Œæ‰å¯ä»¥ä½¿ç”¨æœ¬åœ°æ–‡ä»¶é…ç½®æ¨¡å¼
     active: native
-    # ×Ô¶¨ÒåÅäÖÃÎÄ¼şÂ·¾¶
+    # è‡ªå®šä¹‰é…ç½®æ–‡ä»¶è·¯å¾„
   cloud:
     config:
       server:
@@ -15,7 +15,7 @@ spring:
   application:
     name: config-config-gitsimple2
 
-# ·şÎñÆ÷×¢²á·şÎñÆ÷µÄzone
+# æœåŠ¡å™¨æ³¨å†ŒæœåŠ¡å™¨çš„zone
 eureka:
   client:
     serviceUrl:

@@ -1,15 +1,15 @@
 server:
   port: 10761
-## eureka £º Ö÷ÒªÅäÖÃÊôĞÔÔÚEurekaInstanceConfigBeanºÍEurekaClientConfigBeanÖĞ
+## eureka ï¼š ä¸»è¦é…ç½®å±æ€§åœ¨EurekaInstanceConfigBeanå’ŒEurekaClientConfigBeanä¸­
 eureka:
   client:
-    # ¹Ø±Õeureka client
+    # å…³é—­eureka client
     # enabled: false
-    # ×¢²á×ÔÉíµ½eureka·şÎñÆ÷
+    # æ³¨å†Œè‡ªèº«åˆ°eurekaæœåŠ¡å™¨
     registerWithEureka: true
-    # ±íÊ¾ÊÇ·ñ´Óeureka·şÎñÆ÷»ñÈ¡×¢²áĞÅÏ¢
+    # è¡¨ç¤ºæ˜¯å¦ä»eurekaæœåŠ¡å™¨è·å–æ³¨å†Œä¿¡æ¯
     fetchRegistry: false
-# ÉèÖÃeureka·şÎñÆ÷ËùÔÚµÄµØÖ·£¬²éÑ¯·şÎñºÍ×¢²á·şÎñ¶¼ĞèÒªÒÀÀµÕâ¸öµØÖ·
+# è®¾ç½®eurekaæœåŠ¡å™¨æ‰€åœ¨çš„åœ°å€ï¼ŒæŸ¥è¯¢æœåŠ¡å’Œæ³¨å†ŒæœåŠ¡éƒ½éœ€è¦ä¾èµ–è¿™ä¸ªåœ°å€
     serviceUrl:
       defaultZone: http://127.0.0.1:${server.port}/eureka/
   instance:
