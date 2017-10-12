@@ -1,7 +1,18 @@
 server:
   port: 10761
+spring:
+  application:
+    name: cloud-registration-center
 ## eureka ： 主要配置属性在EurekaInstanceConfigBean和EurekaClientConfigBean中
 eureka:
+  instance:
+    # hostname: 127.0.0.1
+    # 使用IP注册
+    preferIpAddress: true
+    # 心跳间隔
+    lease-renewal-interval-in-seconds: 3
+    # 服务失效时间： 如果多久没有收到请求，则可以删除服务
+    lease-expiration-duration-in-seconds: 7
   client:
     # 关闭eureka client
     # enabled: false
@@ -9,11 +20,16 @@ eureka:
     registerWithEureka: true
     # 表示是否从eureka服务器获取注册信息
     fetchRegistry: false
-# 设置eureka服务器所在的地址，查询服务和注册服务都需要依赖这个地址
+    # 定义从注册中心获取注册服务的信息
+    registry-fetch-interval-seconds: 5
+    # 设置eureka服务器所在的地址，查询服务和注册服务都需要依赖这个地址
     serviceUrl:
-      defaultZone: http://127.0.0.1:${server.port}/eureka/
-  instance:
-      prefer-ip-address: true
-spring:
-  application:
-    name: cloud-registration-center
+      defaultZone: http://127.0.0.1:10761/eureka/
+       # 设置eureka服务器所在的地址，可以同时向多个服务注册服务
+       # defaultZone: http://192.168.21.3:10761/eureka/,http://192.168.21.4:10761/eureka/
+  server:
+     # renewal-percent-threshold: 0.1
+     # 关闭自我保护模式
+     enable-self-preservation: false
+     # 设置清理间隔,单位为毫秒,默认为0
+     eviction-interval-timer-in-ms: 3000
