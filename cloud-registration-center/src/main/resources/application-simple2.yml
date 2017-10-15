@@ -20,16 +20,26 @@ eureka:
     registerWithEureka: true
     # 表示是否从eureka服务器获取注册信息
     fetchRegistry: false
-    # 定义从注册中心获取注册服务的信息
+    # 客户端从Eureka Server集群里更新Eureka Server信息的频率
+    eureka-service-url-poll-interval-seconds: 60
+    # 定义从注册中心获取实例注册服务的信息
     registry-fetch-interval-seconds: 5
     # 设置eureka服务器所在的地址，查询服务和注册服务都需要依赖这个地址
     serviceUrl:
       defaultZone: http://127.0.0.1:10761/eureka/
+
        # 设置eureka服务器所在的地址，可以同时向多个服务注册服务
        # defaultZone: http://192.168.21.3:10761/eureka/,http://192.168.21.4:10761/eureka/
   server:
      # renewal-percent-threshold: 0.1
      # 关闭自我保护模式
      enable-self-preservation: false
+     # Eureka Server 自我保护系数，当enable-self-preservation=true时，启作用
+     # renewal-percent-threshold:
      # 设置清理间隔,单位为毫秒,默认为0
      eviction-interval-timer-in-ms: 3000
+     # 设置如果Eureka Server启动时无法从临近Eureka Server节点获取注册信息，它多久不对外提供注册服务
+     wait-time-in-ms-when-sync-empty: 6000000
+     # 集群之间相互更新节点信息的时间频率
+     peer-eureka-nodes-update-interval-ms: 60000
+

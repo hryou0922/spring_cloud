@@ -1,4 +1,5 @@
 # 版本更新
+- 20171015 [Spring cloud系列五 Eureka 之集群同步、自我保护模式以及实例注册、心跳、下线](http://blog.csdn.net/hry2015/article/details/78245149)对应的git代码为[tagv0.5](https://github.com/hryou0922/spring_cloud/blob/v0.5/cloud-registration-center/src/main/resources/application-simple2.yml)
 - 20171013 [Spring cloud系列四 Eureka 之概述和服务注册中心集群](http://blog.csdn.net/hry2015/article/details/78220673)对应的git代码为[tagv0.4](https://github.com/hryou0922/spring_cloud/blob/v0.4/cloud-registration-center/src/main/resources/application-simple2.yml)
 - 20170911 [Spring cloud系列三 Spring Cloud 配置中心集群](http://blog.csdn.net/hry2015/article/details/77938249)对应的git代码为[tagv0.3](https://github.com/hryou0922/spring_cloud/tree/v0.3)
 - 20170906 [Spring cloud系列二 Spring Cloud 配置中心的基本用法](http://blog.csdn.net/hry2015/article/details/77870854)对应的git代码为[tagsv0.2](https://github.com/hryou0922/spring_cloud/tree/v0.2)
