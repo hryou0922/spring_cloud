@@ -1,0 +1,12 @@
+# 配置ribbon的参数，其他参数为CommonClientConfigKey
+ribbon:
+  # Connect timeout used by Apache HttpClient
+  ConnectTimeout: 10000
+  # Read timeout used by Apache HttpClient
+  ReadTimeout: 10000
+# 如果通过属性配置ribbon的参数，必须以"<clientName>.ribbon."开头，如果<clientName>不存在，并不会作用在所有的ribbon上面
+# 下文的ribbon只能作用在客户端名变cloud-ribbon-service，这个名称和"@FeignClient(name="cloud-ribbon-service")"值相同
+cloud-ribbon-service:
+  ribbon:
+    NIWSServerListClassName: com.hry.spring.cloud.consumer.ribbon.ribbonclient.self.MyDiscoveryEnabledNIWSServerList
+    NFLoadBalancerRuleClassName: com.hry.spring.cloud.consumer.ribbon.ribbonclient.self.MyRule

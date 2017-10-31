@@ -8,16 +8,22 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-config-center" />
         <module name="cloud-consumer" />
+        <module name="cloud-consumer-ribbon" />
         <module name="cloud-registration-center" />
+        <module name="cloud-ribbon" />
         <module name="cloud-service" />
+        <module name="cloud-service-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-config-center" target="1.8" />
       <module name="cloud-consumer" target="1.8" />
+      <module name="cloud-consumer-ribbon" target="1.8" />
       <module name="cloud-parent" target="1.8" />
       <module name="cloud-registration-center" target="1.8" />
+      <module name="cloud-ribbon" target="1.8" />
       <module name="cloud-service" target="1.8" />
+      <module name="cloud-service-ribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

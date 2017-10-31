@@ -1,12 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3439d8c0-5498-478e-b665-23c6d7932b91" name="Default" comment="更新请求" />
+    <list default="true" id="3439d8c0-5498-478e-b665-23c6d7932b91" name="Default" comment="更新请求">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/cloud-consumer-ribbon.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/control/SimpleCtl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/feign/IRibbonClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/MyDefaultRibbonConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/MyRibbonClients.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyDiscoveryEnabledNIWSServerList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyDomainExtractingServerList.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyPingUrl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyRule.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/resources/application-ribbon.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/resources/bootstrap-ribbon.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-registration-center/src/main/resources/sip/call.puml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-registration-center/src/main/resources/sip/register.puml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-ribbon/cloud-service-ribbon.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-ribbon/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/service/ribbon/RibbonCloudServiceApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/service/ribbon/control/SimpleCtl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-ribbon/src/main/resources/application-ribbon.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-ribbon/src/main/resources/bootstrap-ribbon.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple2.yml" afterPath="$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple2.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-parent/pom.xml" afterPath="$PROJECT_DIR$/cloud-parent/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/cloud-parent/target/" />
     <ignored path="$PROJECT_DIR$/cloud-config-center/target/" />
     <ignored path="$PROJECT_DIR$/cloud-consumer/target/" />
     <ignored path="$PROJECT_DIR$/cloud-service/target/" />
     <ignored path="$PROJECT_DIR$/cloud-registration-center/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-service-ribbon/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +51,35 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="EurekaRibbonClientConfiguration.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/eureka/EurekaRibbonClientConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RibbonEurekaAutoConfiguration.java" pinned="false" current-in-tab="true">
+        <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/eureka/RibbonEurekaAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="51" column="42" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="UML Sequence" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -41,6 +96,8 @@
       <find>instanceId</find>
       <find>responseCache</find>
       <find>expectedNumberOfRenewsPerMin</find>
+      <find>DummyPing</find>
+      <find>cloud-ribbon-service</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -51,63 +108,60 @@
       <projects_view />
     </option>
   </component>
-  <component name="HierarchyBrowserManager">
-    <option name="SORT_ALPHABETICALLY" value="true" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple.properties" />
-        <option value="$PROJECT_DIR$/cloud-registration-center/src/main/java/com/hry/spring/cloud/registrationcenter/simple/SimpleCloudRegistrationCenterApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple2.properties" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-nativesimple.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple/git/CloudGitConfigServerApplication2.java" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple/nativ/CloudNativeConfigServerApplication2.java" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple/nativ/CloudNativeConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple/git/CloudGitConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-dev.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-test.yml" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/resources/application-simple.yml" />
-        <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple.yml" />
-        <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple2.yml" />
-        <option value="$PROJECT_DIR$/cloud-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config-center/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/cloud-config-simple2.yml" />
-        <option value="$PROJECT_DIR$/cloud-service/src/test/java/com/hry/spring/cloud/service/CloudServiceApplicationTests.java" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/configsimple/simple-test.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/configspecial/simple-dev.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/default/cloud-config-dev.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/default/cloud-config-simple2.yml" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/SimpleConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/configsimple/cloud-config-dev.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/configsimple/cloud-config-test.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/configspecial/cloud-config-dev.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/configspecial/cloud-config-test.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/default/cloud-config-test.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/configsimple/cloud-config.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/configspecial/cloud-config.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-git/simple2/default/cloud-config.yml" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/SimpleCloudServiceApplication_test.java" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/java/com/hry/spring/cloud/configserver/simple2/git/CloudGitConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/java/com/hry/spring/cloud/service/simple2/SimpleCloudServiceApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-gitsimple2.yml" />
-        <option value="$PROJECT_DIR$/cloud-service/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config-center/src/main/resources/application-nativesimple2.yml" />
-        <option value="$PROJECT_DIR$/cloud-registration-center/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/resources/application-simple2.yml" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/control/SimpleCtl.java" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/service/ISimpleClient.java" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon2/RibbonCloudConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon2/test/MyClass.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/ribbon/SimpleCloudConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/dto/SimpleQry.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/ribbon/RibbonCloudConsumerApplication.java" />
         <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/bootstrap-simple2.yml" />
-        <option value="$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple2.yml" />
-        <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/bootstrap-ribbon.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/application-ribbon.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/ribbon/control/SimpleCtl.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer/src/main/java/com/hry/spring/cloud/consumer/ribbon/service/ISimpleClient.java" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/src/main/resources/application-ribbon.yml" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon2/RibbonCloudConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon2/RibbonCloudServiceApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/control/SimpleController.java" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/RibbonCloudServiceApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/src/main/resources/a" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/cloud-service-ribbon.iml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/cloud-consumer-ribbon.iml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/resources/a" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/resources/Test.s" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/a.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/SimpleCloudConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/RibbonCloudConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/service/ribbon/SimpleCloudServiceApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/service/ribbon/RibbonCloudServiceApplication.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple2.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/resources/bootstrap-ribbon.yml" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/src/main/resources/bootstrap-ribbon.yml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/MyRibbonClient.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/notscan/MyRibbonConfiguration.java" />
+        <option value="$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/service/ribbon/control/SimpleCtl.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/feign/IRibbonClient.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/control/SimpleCtl.java" />
+        <option value="$PROJECT_DIR$/cloud-registration-center/src/main/resources/sip/register.puml" />
+        <option value="$PROJECT_DIR$/cloud-registration-center/src/main/resources/sip/call.puml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/DefaultRibbonConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/MyPingUrl.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/MyRule.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/MyDiscoveryEnabledNIWSServerList.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyPingUrl.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyRule.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/MyDefaultRibbonConfig.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/MyRibbonClients.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyDiscoveryEnabledNIWSServerList.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyDomainExtractingServerList.java" />
+        <option value="$PROJECT_DIR$/cloud-consumer-ribbon/src/main/resources/application-ribbon.yml" />
       </list>
     </option>
   </component>
@@ -123,6 +177,11 @@
         <option name="localRepository" value="D:\dev_tool\maven\repository" />
         <option name="userSettingsFile" value="D:\dev_tool\config\maven\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -155,7 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -163,39 +221,272 @@
           <expand>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-registration-center" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="simple2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbonclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbonclient" type="462c0819:PsiDirectoryNode" />
+              <item name="self" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-service-ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.6.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.6.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="eureka-client-1.6.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.6.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="eureka-client-1.6.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.eureka:eureka-client:1.6.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="eureka-client-1.6.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="discovery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-eureka:2.2.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-eureka:2.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="ribbon-eureka-2.2.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-eureka:2.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="ribbon-eureka-2.2.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="ribbon-loadbalancer-2.2.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="ribbon-loadbalancer-2.2.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="ribbon-loadbalancer-2.2.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="loadbalancer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.inject:javax.inject:1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.inject:javax.inject:1" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.inject-1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: javax.inject:javax.inject:1" type="70bed36:NamedLibraryElementNode" />
+              <item name="javax.inject-1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="inject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="feign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-core:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-core-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="ribbon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-netflix-eureka-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.cloud:spring-cloud-netflix-eureka-client:1.3.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -210,26 +501,30 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="SearchEverywhereHistoryKey" value="PeerAwareInstanceRegistryImpl&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java&#10;AsyncResolver&#9;PSI&#9;JAVA://com.netflix.discovery.shared.resolver.AsyncResolver&#10;DiscoveryClient&#9;FILE&#9;jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.java&#10;heartbeatth&#9;PSI&#9;JAVA://com.netflix.discovery.DiscoveryClient.HeartbeatThread&#10;JerseyApp&#9;PSI&#9;JAVA://com.netflix.discovery.shared.transport.jersey.JerseyApplicationClient&#10;EurekaHttpclientDecorator&#9;PSI&#9;JAVA://com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator&#10;instanceinfoRep&#9;PSI&#9;JAVA://com.netflix.discovery.InstanceInfoReplicator&#10;peera&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java&#10;PeerEurekaNodes&#9;PSI&#9;JAVA://com.netflix.eureka.cluster.PeerEurekaNodes&#10;Evictiontask&#9;PSI&#9;JAVA://com.netflix.eureka.registry.AbstractInstanceRegistry.EvictionTask&#10;ApplicationResource&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/resources/ApplicationResource.java&#10;peeraw&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java&#10;discoverycl&#9;PSI&#9;JAVA://com.netflix.discovery.DiscoveryClient&#10;peereu&#9;PSI&#9;JAVA://com.netflix.eureka.cluster.PeerEurekaNode&#10;Lease&#9;PSI&#9;JAVA://com.netflix.eureka.lease.Lease&#10;InstanceResource&#9;PSI&#9;JAVA://com.netflix.eureka.resources.InstancesResource&#10;instanceres&#9;PSI&#9;JAVA://com.netflix.eureka.resources.InstanceResource&#10;EnvironmentRepository&#9;PSI&#9;JAVA://org.springframework.cloud.config.server.environment.EnvironmentRepository&#10;classloa&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;classloader&#9;PSI&#9;JAVA://org.springframework.beans.factory.support.CglibSubclassingInstantiationStrategy.ClassLoaderAwareGeneratorStrategy&#10;bootclassloa&#9;PSI&#9;JAVA://org.aspectj.apache.bcel.util.ClassLoaderRepository#getBootClassLoader&#10;extclasslo&#9;PSI&#9;JAVA://sun.misc.Launcher.ExtClassLoader&#10;EurekaClientConfigBean&#9;FILE&#9;jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class&#10;characterEncodingFilter&#9;PSI&#9;JAVA://org.springframework.web.filter.CharacterEncodingFilter&#10;FilterRegistrationBean&#9;PSI&#9;JAVA://org.springframework.boot.web.servlet.FilterRegistrationBean" />
+    <property name="SearchEverywhereHistoryKey" value="DomainExtractingServerList&#9;FILE&#9;jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/eureka/DomainExtractingServerList.java&#10;DomainExtractingServerList &#9;PSI&#9;JAVA://com.hry.spring.cloud.consumer.ribbon.ribbonclient.self.MyDomainExtractingServerList&#10;ConfigurationBasedServerList&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ConfigurationBasedServerList.java&#10;DiscoveryEnabledNIWSServerList&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-eureka/2.2.2/ribbon-eureka-2.2.2-sources.jar!/com/netflix/niws/loadbalancer/DiscoveryEnabledNIWSServerList.java&#10;DiscoveryEnabledNIWSServerList &#9;PSI&#9;JAVA://com.hry.spring.cloud.consumer.ribbon.ribbonclient.MyDiscoveryEnabledNIWSServerList&#10;PollingServerListUpdater &#9;PSI&#9;JAVA://com.netflix.loadbalancer.PollingServerListUpdater&#10;ZoneAffinityServerListFilter &#9;PSI&#9;JAVA://com.netflix.loadbalancer.ZoneAffinityServerListFilter&#10;ZonePreferenceServerListFilter&#9;FILE&#9;jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/ZonePreferenceServerListFilter.java&#10;DummyPing&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/DummyPing.java&#10;ServerListUpdater &#9;PSI&#9;JAVA://com.netflix.loadbalancer.ServerListUpdater&#10;IClientConfig &#9;PSI&#9;JAVA://com.netflix.client.config.IClientConfig&#10;ServerListFilter&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-eureka/2.2.2/ribbon-eureka-2.2.2-sources.jar!/com/netflix/niws/loadbalancer/DefaultNIWSServerListFilter.java&#10;ILoadBalancer &#9;PSI&#9;JAVA://com.netflix.loadbalancer.ILoadBalancer&#10;ZoneAwareLoadBalancer&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ZoneAwareLoadBalancer.java&#10;ServerList&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java&#10;DefaultClientConfigImpl&#9;PSI&#9;JAVA://com.netflix.client.config.DefaultClientConfigImpl&#10;CommonClientConfigKey&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-core/2.2.2/ribbon-core-2.2.2-sources.jar!/com/netflix/client/config/CommonClientConfigKey.java&#10;IRule&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IRule.java&#10;ILoadBalancer&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ILoadBalancer.java&#10;iping&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/IPing.java&#10;AvailabilityFilteringRule&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/AvailabilityFilteringRule.java&#10;ServerList &#9;PSI&#9;JAVA://com.netflix.loadbalancer.ServerList&#10;DynamicServerListLoadBalancer&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java&#10;irule&#9;PSI&#9;JAVA://com.netflix.loadbalancer.IRule&#10;NFLoadBalancerClassName&#9;PSI&#9;JAVA://com.netflix.client.config.CommonClientConfigKey#NFLoadBalancerClassName&#10;FeignClient &#9;PSI&#9;JAVA://org.springframework.cloud.netflix.feign.FeignClient&#10;NIWSDiscoveryPing&#9;PSI&#9;JAVA://com.netflix.niws.loadbalancer.NIWSDiscoveryPing&#10;LoadBalancerClient&#9;FILE&#9;jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalancerClient.java&#10;LoadBalanced &#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalanced&#10;LoadBalancerClient &#9;PSI&#9;JAVA://org.springframework.cloud.client.loadbalancer.LoadBalancerClient&#10;RibbonClient&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonClient&#10;RibbonClients&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonClients&#10;rest&#9;FILE&#9;jar://D:/dev_tool/maven/repository/org/springframework/spring-web/4.3.7.RELEASE/spring-web-4.3.7.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java&#10;RestTemplate&#9;PSI&#9;JAVA://org.springframework.web.client.RestTemplate&#10;BaseLoadBalancer&#9;PSI&#9;JAVA://com.netflix.loadbalancer.BaseLoadBalancer&#10;WeightedResponseTimeRule&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/WeightedResponseTimeRule.java&#10;RoundRobinRule&#9;PSI&#9;JAVA://com.netflix.loadbalancer.RoundRobinRule&#10;RibbonClientConfiguration&#9;PSI&#9;JAVA://org.springframework.cloud.netflix.ribbon.RibbonClientConfiguration&#10;PeerAwareInstanceRegistryImpl&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java&#10;AsyncResolver&#9;PSI&#9;JAVA://com.netflix.discovery.shared.resolver.AsyncResolver&#10;DiscoveryClient&#9;FILE&#9;jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.java&#10;heartbeatth&#9;PSI&#9;JAVA://com.netflix.discovery.DiscoveryClient.HeartbeatThread&#10;JerseyApp&#9;PSI&#9;JAVA://com.netflix.discovery.shared.transport.jersey.JerseyApplicationClient&#10;EurekaHttpclientDecorator&#9;PSI&#9;JAVA://com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator&#10;instanceinfoRep&#9;PSI&#9;JAVA://com.netflix.discovery.InstanceInfoReplicator&#10;peera&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java&#10;PeerEurekaNodes&#9;PSI&#9;JAVA://com.netflix.eureka.cluster.PeerEurekaNodes&#10;Evictiontask&#9;PSI&#9;JAVA://com.netflix.eureka.registry.AbstractInstanceRegistry.EvictionTask&#10;ApplicationResource&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/resources/ApplicationResource.java&#10;peeraw&#9;FILE&#9;jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/tmp/del" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\git\spring_cloud\cloud-service-ribbon\src\main\resources" />
+      <recent name="D:\project\git\spring_cloud\cloud-consumer\src\main\java\com\hry\spring\cloud\consumer\ribbon\service" />
+      <recent name="D:\project\git\spring_cloud\cloud-consumer\src\main\resources" />
+      <recent name="D:\project\git\spring_cloud\cloud-ribbon\src\main\resources" />
+      <recent name="D:\project\git\spring_cloud\cloud-ribbon\src\main\java\com\hry\spring\cloud\consumer\ribbon" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hry.spring.cloud.service.ribbon.control" />
+      <recent name="com.hry.spring.cloud.service.ribbon" />
+      <recent name="com.hry.spring.cloud.consumer.ribbon.control" />
+      <recent name="com.hry.spring.cloud.consumer.ribbon" />
+      <recent name="com.hry.spring.cloud.consumer.ribbon2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\git\spring_cloud\cloud-config-git\simple2\config2" />
       <recent name="D:\project\git\spring_cloud\cloud-config-git\simple2\config1" />
       <recent name="D:\project\git\spring_cloud\cloud-config-git\simple2\config" />
       <recent name="D:\project\git\spring_cloud\cloud-config-center\src\main\resources\config\simple" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hry.spring.cloud.service.simple2" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\git\spring_cloud\cloud-service\src\main\resources" />
-      <recent name="D:\project\git\spring_cloud\cloud-config-git\simple2\default" />
-      <recent name="D:\project\git\spring_cloud\cloud-config-git\simple2\configspecial" />
-      <recent name="D:\project\git\spring_cloud\cloud-config-git\simple2\configsimple" />
-      <recent name="D:\project\git\spring_cloud\cloud-config-git\simple2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -244,7 +539,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SimpleCloudRegistrationCenterApplication">
+  <component name="RunManager" selected="Spring Boot.RibbonCloudConsumerApplication (1)">
     <configuration name="CloudGitConfigServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -256,43 +551,55 @@
       <module name="cloud-config-center" />
       <envs />
     </configuration>
-    <configuration name="CloudNativeConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="RibbonCloudConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.hry.spring.cloud.configserver.simple.nativ.*" />
+          <option name="PATTERN" value="com.hry.spring.cloud.consumer.ribbon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hry.spring.cloud.configserver.simple.nativ.CloudNativeConfigServerApplication" />
-      <module name="cloud-config-center" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hry.spring.cloud.consumer.ribbon.RibbonCloudConsumerApplication" />
+      <module name="cloud-consumer-ribbon" />
+      <envs />
+    </configuration>
+    <configuration name="RibbonCloudConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hry.spring.cloud.consumer.ribbon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hry.spring.cloud.consumer.ribbon.RibbonCloudConsumerApplication" />
+      <module name="cloud-consumer" />
+      <envs />
+    </configuration>
+    <configuration name="RibbonCloudServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hry.spring.cloud.service.ribbon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hry.spring.cloud.service.ribbon.RibbonCloudServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="cloud-service-ribbon" />
+      <envs />
+    </configuration>
+    <configuration name="RibbonCloudServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hry.spring.cloud.consumer.ribbon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hry.spring.cloud.consumer.ribbon.RibbonCloudServiceApplication" />
+      <module name="cloud-service-ribbon" />
       <envs />
     </configuration>
     <configuration name="SimpleCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hry.spring.cloud.service.simple2.SimpleCloudServiceApplication" />
       <module name="cloud-service" />
-      <envs />
-    </configuration>
-    <configuration name="SimpleCloudConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hry.spring.cloud.consumer2.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hry.spring.cloud.consumer2.simple.SimpleCloudConsumerApplication" />
-      <module name="cloud-consumer" />
-      <envs />
-    </configuration>
-    <configuration name="SimpleCloudConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hry.spring.cloud.consumer.simple.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hry.spring.cloud.consumer.simple.SimpleCloudConsumerApplication" />
-      <module name="cloud-consumer" />
       <envs />
     </configuration>
     <configuration name="SimpleCloudRegistrationCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -396,18 +703,18 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudRegistrationCenterApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.CloudNativeConfigServerApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudConsumerApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudConsumerApplication (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudServiceApplication_test" />
-      <item index="6" class="java.lang.String" itemvalue="Spring Boot.CloudGitConfigServerApplication (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.RibbonCloudConsumerApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudServiceApplication_test" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.RibbonCloudServiceApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.RibbonCloudConsumerApplication (1)" />
+      <item index="6" class="java.lang.String" itemvalue="Spring Boot.RibbonCloudServiceApplication (1)" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.CloudGitConfigServerApplication (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudConsumerApplication (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudServiceApplication_test" />
-        <item index="3" class="java.lang.String" itemvalue="Spring Boot.SimpleCloudConsumerApplication" />
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.RibbonCloudConsumerApplication (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.RibbonCloudServiceApplication (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.RibbonCloudServiceApplication" />
+        <item index="3" class="java.lang.String" itemvalue="Spring Boot.RibbonCloudConsumerApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -438,7 +745,9 @@
       <workItem from="1507640501106" duration="1133000" />
       <workItem from="1507679061652" duration="1423000" />
       <workItem from="1507728792700" duration="2510000" />
-      <workItem from="1507806341253" duration="26296000" />
+      <workItem from="1507806341253" duration="33057000" />
+      <workItem from="1508411423997" duration="16825000" />
+      <workItem from="1508941090551" duration="25823000" />
     </task>
     <task id="LOCAL-00001" summary="更新请求">
       <created>1507818576197</created>
@@ -451,7 +760,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94364000" />
+    <option name="totallyTimeSpent" value="143773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,9 +773,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.50215983" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60772103" sideWeight="0.50431967" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -474,18 +784,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44084683" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2689913" sideWeight="0.49352053" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275218" sideWeight="0.49352053" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18804483" sideWeight="0.49784017" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13325031" sideWeight="0.49568033" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.49784017" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23812094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2586393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -522,8 +832,26 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/control/SimpleController.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyDomainExtractingServerList.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyDomainExtractingServerList.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -532,439 +860,425 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-registration-center/src/main/resources/application.yml">
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/AbstractServerPredicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/application-simple2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service/src/main/resources/bootstrap-simple2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="40" column="88" lean-forward="false" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="56" column="63" lean-forward="false" selection-start-line="56" selection-start-column="63" selection-end-line="56" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/com.netflix.eureka.registry.PeerAwareInstanceRegistry">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.netflix.eureka.registry.PeerAwareInstanceRegistry</OriginalElement>
-          <nodes>
-            <node x="" y="">com.netflix.eureka.registry.PeerAwareInstanceRegistry</node>
-            <node x="" y="">com.netflix.discovery.shared.LookupService</node>
-            <node x="" y="">com.netflix.eureka.registry.InstanceRegistry</node>
-            <node x="" y="">com.netflix.eureka.lease.LeaseManager</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="207.5" y="119.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/EurekaServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="120" column="52" lean-forward="true" selection-start-line="120" selection-start-column="52" selection-end-line="120" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.2.RELEASE/spring-cloud-netflix-eureka-server-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/resources/application-simple2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer/src/main/resources/bootstrap-simple2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/util/MeasuredRate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="77" column="16" lean-forward="false" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+        <state relative-caret-position="256">
+          <caret line="108" column="29" lean-forward="false" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
           <folding>
-            <element signature="e#2346#2347#0" expanded="false" />
-            <element signature="e#2385#2386#0" expanded="false" />
+            <element signature="e#3538#3539#0" expanded="false" />
+            <element signature="e#3580#3581#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/resources/InstancesResource.java">
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ZoneAffinityServerListFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        <state relative-caret-position="543">
+          <caret line="146" column="29" lean-forward="true" selection-start-line="146" selection-start-column="29" selection-end-line="146" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/resources/InstanceResource.java">
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/archaius/archaius-core/0.7.4/archaius-core-0.7.4.jar!/com/netflix/config/DeploymentContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="232">
+          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/resources/AbstractVIPResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/InstanceRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.2.RELEASE/spring-cloud-netflix-eureka-server-1.3.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/server/EurekaServerConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="485" column="16" lean-forward="false" selection-start-line="485" selection-start-column="16" selection-end-line="485" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-server/1.3.2.RELEASE/spring-cloud-netflix-eureka-server-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/server/InstanceRegistry.java">
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/archaius/archaius-core/0.7.4/archaius-core-0.7.4.jar!/com/netflix/config/ConfigurationManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
-          <caret line="82" column="17" lean-forward="false" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
-          <folding />
+          <caret line="289" column="18" lean-forward="true" selection-start-line="289" selection-start-column="18" selection-end-line="289" selection-end-column="18" />
+          <folding>
+            <element signature="e#11735#11736#0" expanded="true" />
+            <element signature="e#11765#11766#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/ZonePreferenceServerListFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="933" column="13" lean-forward="false" selection-start-line="933" selection-start-column="13" selection-end-line="933" selection-end-column="13" />
+        <state relative-caret-position="367">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/appinfo/LeaseInfo.java">
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/PollingServerListUpdater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-108">
-          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        <state relative-caret-position="2602">
+          <caret line="125" column="35" lean-forward="true" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/appinfo/InstanceInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/lease/LeaseManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="35" column="17" lean-forward="false" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/lease/Lease.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/resources/ApplicationResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="66" column="47" lean-forward="false" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/ResponseCacheImpl.java">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/cloud-consumer-ribbon.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="62" column="2" lean-forward="true" selection-start-line="62" selection-start-column="2" selection-end-line="62" selection-end-column="2" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/RemoteRegionRegistry.java">
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/notscan/MyRibbonConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="69" column="13" lean-forward="false" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/ResponseCache.java">
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/AbstractServerList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="583" column="0" lean-forward="false" selection-start-line="583" selection-start-column="0" selection-end-line="584" selection-end-column="0" />
-          <folding>
-            <element signature="e#6892#6893#0" expanded="true" />
-            <element signature="e#6928#6929#0" expanded="true" />
-            <element signature="e#54804#54805#0" expanded="true" />
-            <element signature="e#54856#54857#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/cluster/PeerEurekaNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/cluster/PeerEurekaNodes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="134" column="51" lean-forward="false" selection-start-line="134" selection-start-column="51" selection-end-line="134" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/InstanceInfoReplicator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="103" column="36" lean-forward="false" selection-start-line="103" selection-start-column="36" selection-end-line="103" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/shared/transport/jersey/JerseyApplicationClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/shared/transport/decorator/EurekaHttpClientDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="57" column="58" lean-forward="false" selection-start-line="57" selection-start-column="58" selection-end-line="57" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/shared/transport/EurekaHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/simple/SimpleDiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="27" column="17" lean-forward="false" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/sun/jersey/jersey-client/1.19.1/jersey-client-1.19.1.jar!/com/sun/jersey/api/client/WebResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="335" column="17" lean-forward="false" selection-start-line="335" selection-start-column="17" selection-end-line="335" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/shared/transport/jersey/AbstractJerseyEurekaHttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="284" column="51" lean-forward="false" selection-start-line="284" selection-start-column="51" selection-end-line="284" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/shared/transport/jersey/ApacheHttpClientConnectionCleaner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/shared/transport/jersey/EurekaJerseyClientImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/transport/JerseyReplicationClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/discovery/noop/NoopDiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaDiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/DiscoveryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="808" column="0" lean-forward="false" selection-start-line="808" selection-start-column="0" selection-end-line="809" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/shared/resolver/AsyncResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientConfigBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="383" column="16" lean-forward="false" selection-start-line="383" selection-start-column="16" selection-end-line="383" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple2.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/PeerAwareInstanceRegistryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="419" column="24" lean-forward="false" selection-start-line="419" selection-start-column="19" selection-end-line="419" selection-end-column="24" />
+        <state relative-caret-position="176">
+          <caret line="31" column="80" lean-forward="false" selection-start-line="31" selection-start-column="70" selection-end-line="31" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-registration-center/src/main/java/com/hry/spring/cloud/registrationcenter/simple2/SimpleCloudRegistrationCenterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
+        <state relative-caret-position="193">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="54">
-            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/cloud-service-ribbon/cloud-service-ribbon.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-ribbon/src/main/resources/bootstrap-ribbon.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-ribbon/src/main/resources/application-ribbon.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/service/ribbon/control/SimpleCtl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-ribbon/src/main/java/com/hry/spring/cloud/service/ribbon/RibbonCloudServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.2.RELEASE/spring-boot-autoconfigure-1.5.2.RELEASE.jar!/org/springframework/boot/autoconfigure/aop/AopAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-commons/1.2.3.RELEASE/spring-cloud-commons-1.2.3.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/AsyncLoadBalancerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10">
+          <caret line="43" column="18" lean-forward="false" selection-start-line="43" selection-start-column="18" selection-end-line="43" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/javax/inject/javax.inject/1/javax.inject-1.jar!/javax/inject/Provider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/eureka/eureka-client/1.6.2/eureka-client-1.6.2-sources.jar!/com/netflix/discovery/EurekaClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ConfigurationBasedServerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="42" column="13" lean-forward="false" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/MyRibbonClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/MyDefaultRibbonConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/control/SimpleCtl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-eureka/2.2.2/ribbon-eureka-2.2.2-sources.jar!/com/netflix/niws/loadbalancer/DiscoveryEnabledNIWSServerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="93" column="11" lean-forward="false" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/feign/IRibbonClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/ServerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyPingUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/resources/bootstrap-ribbon.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-loadbalancer/2.2.2/ribbon-loadbalancer-2.2.2-sources.jar!/com/netflix/loadbalancer/DynamicServerListLoadBalancer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyDiscoveryEnabledNIWSServerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/resources/application-ribbon.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/ribbonclient/self/MyDomainExtractingServerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/com/netflix/ribbon/ribbon-eureka/2.2.2/ribbon-eureka-2.2.2-sources.jar!/com/netflix/niws/loadbalancer/DiscoveryEnabledServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/eureka/ZoneUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/eureka/DomainExtractingServerList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/eureka/EurekaServerIntrospector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/FeignClientsRegistrar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="62" column="6" lean-forward="false" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/feign/EnableFeignClients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon/RibbonCloudConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/config/EurekaClientConfigServerAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/config/EurekaDiscoveryClientConfigServiceAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="36" column="13" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="85" column="13" lean-forward="false" selection-start-line="85" selection-start-column="13" selection-end-line="85" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-core/1.3.2.RELEASE/spring-cloud-netflix-core-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/RibbonAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="64" column="13" lean-forward="false" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/eureka/EurekaRibbonClientConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev_tool/maven/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.3.2.RELEASE/spring-cloud-netflix-eureka-client-1.3.2.RELEASE-sources.jar!/org/springframework/cloud/netflix/ribbon/eureka/RibbonEurekaAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="51" column="42" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,11 +1336,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|cloud-config-center</last-edited>
+          <last-edited>cloud-service-ribbon</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

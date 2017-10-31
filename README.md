@@ -49,4 +49,5 @@
 - 带单个参数请求：http://127.0.0.1:10701/feign-client-call/transparentString
 - 带多个参数请求：http://127.0.0.1:10701/feign-client-call-with-qry
 
-
+# cloud-ribbon
+- ribbon用法

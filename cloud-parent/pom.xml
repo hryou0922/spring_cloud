@@ -10,6 +10,11 @@
         <module>../cloud-consumer</module>
         <module>../cloud-registration-center</module>
         <module>../cloud-service</module>
+        <module>../cloud-ribbon</module>
+        <module>../cloud-consumer-ribbon</module>
+        <module>../cloud-consumer-ribbon</module>
+        <module>../cloud-consumer-ribbon</module>
+        <module>../cloud-service-ribbon</module>
     </modules>
     <packaging>pom</packaging>
 
