@@ -1,0 +1,13 @@
+
+# 配置hystrix的参数
+hystrix:
+  threadpool:
+    # default: 默认参数，作用的所有的hystrix的客户端
+    default:
+      coreSize: 10
+
+# feign配置
+feign:
+  hystrix:
+    # 在feign中开启hystrix功能，默认情况下feign不开启hystrix功能
+    enabled: true

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cloudgparent</artifactId>
+        <groupId>com.hry.spring.cloud</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../cloud-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>cloud-consumer-hystrix</artifactId>
+    <dependencies>
+        <!--<dependency>-->
+            <!--<groupId>com.netflix.hystrix</groupId>-->
+            <!--<artifactId>hystrix-javanica</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>io.github.openfeign</groupId>-->
+            <!--<artifactId>feign-hystrix</artifactId>-->
+        <!--</dependency>-->
+
+        <!-- feign -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+        </dependency>
+        <!-- hystrix -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-hystrix</artifactId>
+        </dependency>
+
+        <!-- hystrix dashboard -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-hystrix-dashboard</artifactId>
+            <!--
+            <version>1.3.2.RELEASE</version>
+            -->
+        </dependency>
+        <!-- 如果提示 Unable to connect to Command Metric Stream. 则需要引入以下包 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!-- turbine
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-turbine</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-netflix-turbine</artifactId>
+        </dependency>
+         -->
+
+    </dependencies>
+
+
+</project>
