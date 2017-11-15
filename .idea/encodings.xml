@@ -14,5 +14,6 @@
     <file url="file://$PROJECT_DIR$/cloud-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-service-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-service-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zuul" charset="UTF-8" />
   </component>
 </project>

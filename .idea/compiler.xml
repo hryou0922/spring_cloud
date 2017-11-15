@@ -16,6 +16,7 @@
         <module name="cloud-service" />
         <module name="cloud-service-hystrix" />
         <module name="cloud-service-ribbon" />
+        <module name="cloud-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +31,7 @@
       <module name="cloud-service" target="1.8" />
       <module name="cloud-service-hystrix" target="1.8" />
       <module name="cloud-service-ribbon" target="1.8" />
+      <module name="cloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

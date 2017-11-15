@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework.cloud:spring-cloud-starter-netflix-zuul:unknown">
+    <CLASSES>
+      <root url="jar://D:/mvnrepository_study/org/springframework/cloud/spring-cloud-starter-netflix-zuul/unknown/spring-cloud-starter-netflix-zuul-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/mvnrepository_study/org/springframework/cloud/spring-cloud-starter-netflix-zuul/unknown/spring-cloud-starter-netflix-zuul-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/mvnrepository_study/org/springframework/cloud/spring-cloud-starter-netflix-zuul/unknown/spring-cloud-starter-netflix-zuul-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
