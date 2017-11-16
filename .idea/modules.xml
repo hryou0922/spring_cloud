@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-service/cloud-service.iml" filepath="$PROJECT_DIR$/cloud-service/cloud-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-hystrix/cloud-service-hystrix.iml" filepath="$PROJECT_DIR$/cloud-service-hystrix/cloud-service-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-ribbon/cloud-service-ribbon.iml" filepath="$PROJECT_DIR$/cloud-service-ribbon/cloud-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-zuul/cloud-service-zuul.iml" filepath="$PROJECT_DIR$/cloud-service-zuul/cloud-service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
       <module fileurl="file://D:\eclipse_study\spring_cloud_2\spring_cloud\cloud-config-center\ss.iml" filepath="D:\eclipse_study\spring_cloud_2\spring_cloud\cloud-config-center\ss.iml" />
     </modules>

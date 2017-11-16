@@ -10,21 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-zuul</artifactId>
+    <artifactId>cloud-service-zuul</artifactId>
 
-    <dependencies>
-        <!-- 引入zuul-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zuul</artifactId>
-        </dependency>
-        <!-- hystrix -->
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.cloud</groupId>-->
-            <!--<artifactId>spring-cloud-starter-hystrix</artifactId>-->
-        <!--</dependency>-->
-
-
-    </dependencies>
 
 </project>
