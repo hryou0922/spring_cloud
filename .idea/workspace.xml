@@ -53,7 +53,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="ZuulFilterCloudApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ZuulFilterCloudApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-zuul/src/main/java/com/hry/spring/cloud/zuul/filter/ZuulFilterCloudApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -73,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleCtl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SimpleCtl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-service-zuul/src/main/java/com/hry/spring/cloud/service/zuul/control/SimpleCtl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
@@ -1222,7 +1222,7 @@
       <workItem from="1508411423997" duration="16825000" />
       <workItem from="1508941090551" duration="27793000" />
       <workItem from="1510639228924" duration="24007000" />
-      <workItem from="1510797659491" duration="15609000" />
+      <workItem from="1510797659491" duration="16207000" />
     </task>
     <task id="LOCAL-00001" summary="更新请求">
       <created>1507818576197</created>
@@ -1235,7 +1235,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185359000" />
+    <option name="totallyTimeSpent" value="185957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1749,7 +1749,7 @@
         <state relative-caret-position="322">
           <caret line="55" column="27" lean-forward="false" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1775,8 +1775,8 @@
         <state relative-caret-position="347">
           <caret line="106" column="35" lean-forward="false" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
           <folding>
-            <element signature="e#2364#2649#0" expanded="true" />
-            <element signature="e#2648#2649#0" expanded="true" />
+            <element signature="e#2364#2649#0" expanded="false" />
+            <element signature="e#2648#2649#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1809,14 +1809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-zuul/src/main/java/com/hry/spring/cloud/service/zuul/control/SimpleCtl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1867,6 +1859,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-zuul/src/main/java/com/hry/spring/cloud/service/zuul/control/SimpleCtl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
           <folding />
         </state>
       </provider>
