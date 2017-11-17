@@ -17,6 +17,8 @@
         <module>../cloud-dashboard-hystrix</module>
         <module>../cloud-zuul</module>
         <module>../cloud-service-zuul</module>
+        <module>../cloud-dashboard-zipkin</module>
+        <module>../cloud-service-zipkin</module>
     </modules>
     <packaging>pom</packaging>
 
