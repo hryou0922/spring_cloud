@@ -19,6 +19,7 @@
         <module>../cloud-service-zuul</module>
         <module>../cloud-dashboard-zipkin</module>
         <module>../cloud-service-zipkin</module>
+        <module>../cloud-consumer-zipkin</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -9,10 +9,12 @@ import org.springframework.boot.autoconfigure.web.HttpMessageConverters;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.HttpMessageConverter;
+import zipkin.server.EnableZipkinServer;
 
 
 @EnableEurekaClient // 配置本应用将使用服务注册和服务发现
 @SpringBootApplication
+@EnableZipkinServer
 // @EnableZipkinServer
 public class ZipkinDashboardCloudApplication {
 

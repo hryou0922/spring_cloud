@@ -25,11 +25,14 @@
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-sleuth-zipkin:1.2.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-commons:1.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.security:spring-security-crypto:4.2.3.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: io.zipkin.java:zipkin:1.28.0" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.reporter:zipkin-reporter:1.0.0" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.java:zipkin-autoconfigure-ui:1.28.0" level="project" />
     <orderEntry type="library" name="Maven: io.zipkin.java:zipkin-ui:1.28.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.java:zipkin-server:1.28.0" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-actuator:1.5.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-actuator:1.5.6.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: io.zipkin.java:zipkin:1.28.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:1.5.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.6.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.10.RELEASE" level="project" />

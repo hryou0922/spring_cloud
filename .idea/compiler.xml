@@ -10,6 +10,7 @@
         <module name="cloud-consumer" />
         <module name="cloud-consumer-hystrix" />
         <module name="cloud-consumer-ribbon" />
+        <module name="cloud-consumer-zipkin" />
         <module name="cloud-dashboard-hystrix" />
         <module name="cloud-dashboard-zipkin" />
         <module name="cloud-registration-center" />
@@ -27,6 +28,7 @@
       <module name="cloud-consumer" target="1.8" />
       <module name="cloud-consumer-hystrix" target="1.8" />
       <module name="cloud-consumer-ribbon" target="1.8" />
+      <module name="cloud-consumer-zipkin" target="1.8" />
       <module name="cloud-dashboard-hystrix" target="1.8" />
       <module name="cloud-dashboard-zipkin" target="1.8" />
       <module name="cloud-parent" target="1.8" />

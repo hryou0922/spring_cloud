@@ -14,6 +14,7 @@ public class SimpleCtl {
 	@RequestMapping(value="/zipkin/simple")
     public String ribbonClientCall(){
 	    int newCount = count.incrementAndGet();
+	    System.out.println("-------------- ribbonClientCall -----------------");
 		return "zipkin" + newCount + ": " + ThreadLocalRandom.current().nextInt(1000);
     }
 
