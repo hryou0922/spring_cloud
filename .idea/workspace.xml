@@ -76,8 +76,8 @@
       <file leaf-file-name="SimpleCtl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-service-zuul/src/main/java/com/hry/spring/cloud/service/zuul/control/SimpleCtl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+            <state relative-caret-position="342">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -1222,7 +1222,7 @@
       <workItem from="1508411423997" duration="16825000" />
       <workItem from="1508941090551" duration="27793000" />
       <workItem from="1510639228924" duration="24007000" />
-      <workItem from="1510797659491" duration="16207000" />
+      <workItem from="1510797659491" duration="16813000" />
     </task>
     <task id="LOCAL-00001" summary="更新请求">
       <created>1507818576197</created>
@@ -1235,7 +1235,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185957000" />
+    <option name="totallyTimeSpent" value="186563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1865,8 +1865,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-zuul/src/main/java/com/hry/spring/cloud/service/zuul/control/SimpleCtl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        <state relative-caret-position="342">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
       </provider>
