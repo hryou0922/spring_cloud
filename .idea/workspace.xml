@@ -2,62 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efb4e9ec-6ada-406e-b3d4-c82e7bf1dad9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_1_28_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_ui_1_28_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_server_1_28_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_ui_1_28_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter_zipkin_reporter_1_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_1_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_1_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_1_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zipkin_1_2_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zuul_1_3_5_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-zipkin/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-zipkin/src/main/java/com/hry/spring/cloud/consumer/zipkin/ZipkinCloudConsumerApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-zipkin/src/main/java/com/hry/spring/cloud/consumer/zipkin/control/SimpleCtl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-zipkin/src/main/java/com/hry/spring/cloud/consumer/zipkin/feign/IRibbonClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-zipkin/src/main/resources/application-zipkin.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-consumer-zipkin/src/main/resources/bootstrap-zipkin.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/java/com/hry/spring/cloud/dashboard/zipkin/http/ZipkinDashboardCloudApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/bootstrap-zipkin-http.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zipkin/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zipkin/src/main/java/com/hry/spring/cloud/service/zipkin/ZipkinCloudServiceApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zipkin/src/main/java/com/hry/spring/cloud/service/zipkin/control/SimpleCtl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zipkin/src/main/resources/application-zipkin.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zipkin/src/main/resources/bootstrap-zipkin.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zipkin/src/main/resources/logback-spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zuul/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zuul/src/main/java/com/hry/spring/cloud/service/zuul/ZuulCloudServiceApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zuul/src/main/java/com/hry/spring/cloud/service/zuul/control/SimpleCtl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zuul/src/main/resources/application-zuul.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-service-zuul/src/main/resources/bootstrap-zuul.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-zuul/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/hry/spring/cloud/zuul/T.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/hry/spring/cloud/zuul/filter/MyPreFilter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/hry/spring/cloud/zuul/filter/ZuulFilterCloudApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-zuul/src/main/java/com/hry/spring/cloud/zuul/simple/ZuulSimpleCloudApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-zuul/src/main/resources/application-zuul-filter.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-zuul/src/main/resources/application-zuul-simple.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-zuul/src/main/resources/bootstrap-zuul-filter.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cloud-zuul/src/main/resources/bootstrap-zuul-simple.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-config-center/cloud-config-center.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-consumer-hystrix/cloud-consumer-hystrix.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-consumer-ribbon/cloud-consumer-ribbon.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-dashboard-hystrix/cloud-dashboard-hystrix.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-service-hystrix/cloud-service-hystrix.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cloud-service-ribbon/cloud-service-ribbon.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-consumer-hystrix/src/main/java/com/hry/spring/cloud/consumer/hystrix/raw/client/MyHystrixClient.java" afterPath="$PROJECT_DIR$/cloud-consumer-hystrix/src/main/java/com/hry/spring/cloud/consumer/hystrix/raw/client/MyHystrixClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-parent/pom.xml" afterPath="$PROJECT_DIR$/cloud-parent/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/cloud-consumer/target/" />
@@ -83,84 +28,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="HystrixCircuitBreakerConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.5.RELEASE/spring-cloud-netflix-core-1.3.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/hystrix/HystrixCircuitBreakerConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HystrixSimpleCloudConsumerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix/src/main/java/com/hry/spring/cloud/consumer/hystrix/raw/HystrixSimpleCloudConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="31" column="14" lean-forward="false" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnableCircuitBreaker.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.4.RELEASE/spring-cloud-commons-1.2.4.RELEASE-sources.jar!/org/springframework/cloud/client/circuitbreaker/EnableCircuitBreaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="39" column="1" lean-forward="false" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyHystrixClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-hystrix/src/main/java/com/hry/spring/cloud/consumer/hystrix/raw/client/MyHystrixClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="19" />
-              <folding>
-                <marker date="1511100753496" expanded="true" signature="293:351" ph="/**...*/" />
-                <marker date="1511100753496" expanded="true" signature="551:684" ph="{...}" />
-                <marker date="1511100753496" expanded="true" signature="690:847" ph="/**...*/" />
-                <marker date="1511100753496" expanded="true" signature="891:989" ph="{...}" />
-                <marker date="1511100753496" expanded="true" signature="991:1106" ph="//..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringFactoryImportSelector.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.4.RELEASE/spring-cloud-commons-1.2.4.RELEASE-sources.jar!/org/springframework/cloud/commons/util/SpringFactoryImportSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigurationClassParser.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassParser.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10152">
-              <caret line="438" column="0" lean-forward="false" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -570,6 +438,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="cloudservice" />
+      <envs />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -645,12 +525,12 @@
       <option name="presentableId" value="Default" />
       <updated>1511013919733</updated>
       <workItem from="1511013921761" duration="8810000" />
-      <workItem from="1511100853534" duration="511000" />
+      <workItem from="1511100853534" duration="610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9321000" />
+    <option name="totallyTimeSpent" value="9420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -669,7 +549,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41576675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41576675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1057,7 +937,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar!/org/springframework/context/annotation/ConfigurationClassParser.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10152">
+        <state relative-caret-position="11286">
           <caret line="438" column="0" lean-forward="false" selection-start-line="438" selection-start-column="0" selection-end-line="438" selection-end-column="0" />
           <folding />
         </state>
@@ -1081,8 +961,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="432">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
       </provider>
