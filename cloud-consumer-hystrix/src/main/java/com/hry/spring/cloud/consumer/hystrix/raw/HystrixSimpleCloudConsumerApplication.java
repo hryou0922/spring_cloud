@@ -17,7 +17,7 @@ import org.springframework.web.client.RestTemplate;
 
 
 @SpringBootApplication
-@EnableCircuitBreaker
+@EnableCircuitBreaker // 启动断路器
 @EnableEurekaClient // 配置本应用将使用服务注册和服务发现
 public class HystrixSimpleCloudConsumerApplication {
 

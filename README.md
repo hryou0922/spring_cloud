@@ -2,6 +2,8 @@
 - 博客[IntelliJ IDEA工具 - 使用IntelliJ IDEA导入Github工程](http://blog.csdn.net/hry2015/article/details/77984399): 本博客的代码全部存储在Github在，为了方便大家在本地创建工程,本博客演示如何从Github中加载代码到本地工程中以及加载tag分支代码到本地工程中
 
 # 版本更新
+- 20171031 [ Spring cloud系列十 使用@HystrixCommand使用Hystrix组件及@EnableCircuitBreaker原理介绍](http://blog.csdn.net/hry2015/article/details/78577695)对应的git代码为[tagv0.7](https://github.com/hryou0922/spring_cloud/tree/v0.7)
+- 20171114 **对依赖spring cloud进行版本升级**: spring-boot-starter-parent版本从1.5.2.RELEASE升级到1.5.6.RELEASE; spring-cloud-dependencies版本从Dalston.SR2升级到Dalston.SR4
 - 20171031 [Spring cloud系列七 为@Feign中集成的Ribbon进行个性化配置](http://blog.csdn.net/hry2015/article/details/78408342)对应的git代码为[tagv0.6](https://github.com/hryou0922/spring_cloud/tree/v0.6/cloud-consumer-ribbon/src/main/java/com/hry/spring/cloud/consumer/ribbon)
 - 20171015 [Spring cloud系列五 Eureka 之集群同步、自我保护模式以及实例注册、心跳、下线](http://blog.csdn.net/hry2015/article/details/78245149)对应的git代码为[tagv0.5](https://github.com/hryou0922/spring_cloud/blob/v0.5/cloud-registration-center/src/main/resources/application-simple2.yml)
 - 20171013 [Spring cloud系列四 Eureka 之概述和服务注册中心集群](http://blog.csdn.net/hry2015/article/details/78220673)对应的git代码为[tagv0.4](https://github.com/hryou0922/spring_cloud/blob/v0.4/cloud-registration-center/src/main/resources/application-simple2.yml)

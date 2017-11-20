@@ -1,6 +1,6 @@
 # port
 server:
-  port: 12702
+  port: 12083
 
 spring:
   application:
