@@ -9,14 +9,14 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-consumer-zipkin/cloud-consumer-zipkin.iml" filepath="$PROJECT_DIR$/cloud-consumer-zipkin/cloud-consumer-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-dashboard-hystrix/cloud-dashboard-hystrix.iml" filepath="$PROJECT_DIR$/cloud-dashboard-hystrix/cloud-dashboard-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-dashboard-zipkin/cloud-dashboard-zipkin.iml" filepath="$PROJECT_DIR$/cloud-dashboard-zipkin/cloud-dashboard-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent/cloudgparent.iml" filepath="$PROJECT_DIR$/cloud-parent/cloudgparent.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-registration-center/registrationcenter.iml" filepath="$PROJECT_DIR$/cloud-registration-center/registrationcenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service/cloudservice.iml" filepath="$PROJECT_DIR$/cloud-service/cloudservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-hystrix/cloud-service-hystrix.iml" filepath="$PROJECT_DIR$/cloud-service-hystrix/cloud-service-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-ribbon/cloud-service-ribbon.iml" filepath="$PROJECT_DIR$/cloud-service-ribbon/cloud-service-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-zipkin/cloud-service-zipkin.iml" filepath="$PROJECT_DIR$/cloud-service-zipkin/cloud-service-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-service-zuul/cloud-service-zuul.iml" filepath="$PROJECT_DIR$/cloud-service-zuul/cloud-service-zuul.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-parent/cloudgparent.iml" filepath="$PROJECT_DIR$/cloud-parent/cloudgparent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-service/cloudservice.iml" filepath="$PROJECT_DIR$/cloud-service/cloudservice.iml" />
     </modules>
   </component>
 </project>
