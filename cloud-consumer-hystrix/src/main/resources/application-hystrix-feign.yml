@@ -5,7 +5,11 @@ hystrix:
     # default: 默认参数，作用的所有的hystrix的客户端
     default:
       coreSize: 10
-
+  command:
+    default:
+      fallback:
+        # 是否关闭回退方法
+        enabled: true
 # feign配置
 feign:
   hystrix:
