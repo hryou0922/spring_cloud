@@ -8,8 +8,8 @@ hystrix:
   command:
     default:
       fallback:
-        # 是否关闭回退方法
-        enabled: true
+        # 是否开启回退方法
+        enabled: false
 # feign配置
 feign:
   hystrix:
