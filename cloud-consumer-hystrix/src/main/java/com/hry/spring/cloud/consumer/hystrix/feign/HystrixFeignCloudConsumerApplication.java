@@ -16,7 +16,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 @SpringBootApplication
 @EnableFeignClients
 @EnableEurekaClient // 配置本应用将使用服务注册和服务发现
-@EnableHystrixDashboard // 开启dashboard: 查看 http://127.0.0.1:12701/hystrix.stream
+@EnableHystrixDashboard // 开启dashboard: 查看 http://127.0.0.1:12082/hystrix.stream
 public class HystrixFeignCloudConsumerApplication {
 
     public static void main(String[] args) {
