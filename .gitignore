@@ -24,4 +24,5 @@ Servers
 .idea
 .idea/
 .idea/*
+.idea/workspace.xml
 out
