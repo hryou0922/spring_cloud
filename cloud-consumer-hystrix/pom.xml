@@ -37,7 +37,8 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-hystrix-dashboard</artifactId>
         </dependency>
-        <!-- 如果提示 Unable to connect to Command Metric Stream. 则需要引入以下包 -->
+
+        <!-- hystrix dashboard  如果提示 Unable to connect to Command Metric Stream. 则需要引入以下包  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>

@@ -9,15 +9,13 @@ import org.springframework.boot.autoconfigure.web.HttpMessageConverters;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.netflix.feign.EnableFeignClients;
-import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboard;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
 
 @SpringBootApplication
-@EnableCircuitBreaker // 启动断路器
+@EnableCircuitBreaker // 启动断路器，如果要监控hystrix的流必须开启此注解
 @EnableEurekaClient // 配置本应用将使用服务注册和服务发现
 public class HystrixSimpleCloudConsumerApplication {
 
