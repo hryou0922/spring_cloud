@@ -17,7 +17,7 @@ import org.springframework.http.converter.HttpMessageConverter;
 @SpringBootApplication
 @EnableEurekaClient // 配置本应用将使用服务注册和服务发现
 @EnableHystrixDashboard
-@EnableTurbine // http://10.240.80.69:10601/hystrix
+@EnableTurbine // http://127.0.0.1:12086/hystrix
 public class HystrixDashboardCloudApplication {
 
     public static void main(String[] args) {

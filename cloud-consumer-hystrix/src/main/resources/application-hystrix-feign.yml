@@ -9,7 +9,7 @@ hystrix:
     default:
       fallback:
         # 是否开启回退方法
-        enabled: false
+        enabled: true
 # feign配置
 feign:
   hystrix:
