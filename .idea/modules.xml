@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-config-center/cloud-config-center.iml" filepath="$PROJECT_DIR$/cloud-config-center/cloud-config-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" filepath="$PROJECT_DIR$/cloud-consumer/cloud-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-hystrix/cloud-consumer-hystrix.iml" filepath="$PROJECT_DIR$/cloud-consumer-hystrix/cloud-consumer-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-ribbon/cloud-consumer-ribbon.iml" filepath="$PROJECT_DIR$/cloud-consumer-ribbon/cloud-consumer-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-consumer-zipkin/cloud-consumer-zipkin.iml" filepath="$PROJECT_DIR$/cloud-consumer-zipkin/cloud-consumer-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-dashboard-hystrix/cloud-dashboard-hystrix.iml" filepath="$PROJECT_DIR$/cloud-dashboard-hystrix/cloud-dashboard-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-dashboard-zipkin/cloud-dashboard-zipkin.iml" filepath="$PROJECT_DIR$/cloud-dashboard-zipkin/cloud-dashboard-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-hystrix/cloud-service-hystrix.iml" filepath="$PROJECT_DIR$/cloud-service-hystrix/cloud-service-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-ribbon/cloud-service-ribbon.iml" filepath="$PROJECT_DIR$/cloud-service-ribbon/cloud-service-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-zipkin/cloud-service-zipkin.iml" filepath="$PROJECT_DIR$/cloud-service-zipkin/cloud-service-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-zuul/cloud-service-zuul.iml" filepath="$PROJECT_DIR$/cloud-service-zuul/cloud-service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" filepath="$PROJECT_DIR$/cloud-zuul/cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-parent/cloudgparent.iml" filepath="$PROJECT_DIR$/cloud-parent/cloudgparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service/cloudservice.iml" filepath="$PROJECT_DIR$/cloud-service/cloudservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-registration-center/registrationcenter.iml" filepath="$PROJECT_DIR$/cloud-registration-center/registrationcenter.iml" />
+    </modules>
+  </component>
+</project>

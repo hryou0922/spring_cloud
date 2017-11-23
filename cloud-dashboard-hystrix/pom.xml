@@ -17,9 +17,6 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-netflix-hystrix-dashboard</artifactId>
-            <!--
-            <version>1.3.2.RELEASE</version>
-            -->
         </dependency>
         <!-- 如果提示 Unable to connect to Command Metric Stream. 则需要引入以下包 -->
         <dependency>

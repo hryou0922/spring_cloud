@@ -25,18 +25,4 @@ public class HystrixDashboardCloudApplication {
         args[0] = "--spring.profiles.active=dashboard";
         SpringApplication.run(HystrixDashboardCloudApplication.class, args);
     }
-
-    /**
-     * 使用fastjson做为json的解析器
-     * @return
-     */
-    @Bean
-    public HttpMessageConverters fastJsonHttpMessageConverters() {
-        FastJsonHttpMessageConverter fastConverter = new FastJsonHttpMessageConverter();
-        FastJsonConfig fastJsonConfig = new FastJsonConfig();
-        fastJsonConfig.setSerializerFeatures(SerializerFeature.PrettyFormat);
-        fastConverter.setFastJsonConfig(fastJsonConfig);
-        HttpMessageConverter<?> converter = fastConverter;
-        return new HttpMessageConverters(converter);
-    }
 }

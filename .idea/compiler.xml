@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-config-center" />
+        <module name="cloud-consumer" />
+        <module name="cloud-consumer-hystrix" />
+        <module name="cloud-consumer-ribbon" />
+        <module name="cloud-consumer-zipkin" />
+        <module name="cloud-dashboard-hystrix" />
+        <module name="cloud-dashboard-zipkin" />
+        <module name="cloud-registration-center" />
+        <module name="cloud-ribbon" />
+        <module name="cloud-service" />
+        <module name="cloud-service-hystrix" />
+        <module name="cloud-service-ribbon" />
+        <module name="cloud-service-zipkin" />
+        <module name="cloud-service-zuul" />
+        <module name="cloud-zuul" />
+        <module name="cloudservice" />
+        <module name="registrationcenter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-config-center" target="1.8" />
+      <module name="cloud-consumer" target="1.8" />
+      <module name="cloud-consumer-hystrix" target="1.8" />
+      <module name="cloud-consumer-ribbon" target="1.8" />
+      <module name="cloud-consumer-zipkin" target="1.8" />
+      <module name="cloud-dashboard-hystrix" target="1.8" />
+      <module name="cloud-dashboard-zipkin" target="1.8" />
+      <module name="cloud-parent" target="1.8" />
+      <module name="cloud-registration-center" target="1.8" />
+      <module name="cloud-ribbon" target="1.8" />
+      <module name="cloud-service" target="1.8" />
+      <module name="cloud-service-hystrix" target="1.8" />
+      <module name="cloud-service-ribbon" target="1.8" />
+      <module name="cloud-service-zipkin" target="1.8" />
+      <module name="cloud-service-zuul" target="1.8" />
+      <module name="cloud-zuul" target="1.8" />
+      <module name="cloudgparent" target="1.8" />
+      <module name="cloudservice" target="1.8" />
+      <module name="registrationcenter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

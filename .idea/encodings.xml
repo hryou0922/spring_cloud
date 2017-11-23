@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cloud-config-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-center/src/main/resources/application-nativesimple2.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-dashboard-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-dashboard-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-registration-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-registration-center/src/main/resources/application-simple2.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-registration-center/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-service-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-service-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-service-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-service-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zuul" charset="UTF-8" />
+  </component>
+</project>
