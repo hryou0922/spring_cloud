@@ -2,8 +2,8 @@
 
 management:
   security:
-    # 关闭安全，可以访问这个接口 http://10.240.80.69:14601/routes
-    # 查看详细信息： http://10.240.80.69:14601/routes，
+    # 关闭安全，可以访问这个接口 http://127.0.0.1:14601/routes
+    # 查看详细信息： http://127.0.0.1:14601/routes，
     enabled: false
 
 zuul:
@@ -13,29 +13,30 @@ zuul:
   # ignoredPatterns: /**/admin/**
   routes:
     # 如果没有配置路由，则zuul默认已经自动配置类似的关系："/cloud-service-zuul/**":"cloud-service-zuul"
-    # 访问http://127.0.0.1:14601/cloud-service-zuul/zuul-test/simple，等价于 http://127.0.0.1:15601/zuul-test/simple
+    # 访问http://127.0.0.1:14601/cloud-service-zuul/zuul-test/simple，等价于 http://127.0.0.1:14606/zuul-test/simple
     # 此名称任意
     api-url:
       # 通过url直接映射
-      # 所有到Zuul的中规则为：/api-a-url/**的访问都映射到http://127.0.0.1:15601/上，
-      # 也就是说当我们访问http://127.0.0.1:14601/api-a-url/zuul-test/simple的时候，Zuul会将该请求路由到：http://127.0.0.1:15601/zuul-test/simple
+      # 所有到Zuul的中规则为：/api-a-url/**的访问都映射到http://127.0.0.1:14606/上，
+      # 也就是说当我们访问http://127.0.0.1:14601/api-a-url/zuul-test/simple的时候，Zuul会将该请求路由到：http://127.0.0.1:14606/zuul-test/simple
       path: /api-a-url/**
       # 对于url映射不是通过HystrixCommand执行，也不能通过ribbon进行负载，需要进行额外配置，详细见spring 文档
-      url: http://127.0.0.1:15601/
+      url: http://127.0.0.1:14606/
     # 此名称任意
     api-application-name:
-      # 服务名与服务实例地址的关系： 即 http://127.0.0.1:14601//api-a//zuul-test/simple 等介于 http://127.0.0.1:15601/zuul-test/simple
+      # 服务名与服务实例地址的关系： 即 http://127.0.0.1:14601//api-a//zuul-test/simple 等介于 http://127.0.0.1:14606/zuul-test/simple
       path: /api-a/**
       url: cloud-service-zuul
     # 此名称任意
     api-strip-prefix:
-      # http://127.0.0.1:14601/zuul-test/simple 等介于 http://127.0.0.1:15601/zuul-test/simple
+      # http://127.0.0.1:14601/zuul-test/simple 等介于 http://127.0.0.1:14606/zuul-test/simple
       # 路径请不要使用/zuul测试，这是zuul自己使用的
       path: /zuul-test/**
       url: cloud-service-zuul
       # 默认值为true，如果设置为false，则重定向时，访问的新的URL，不删除path部分的前缀
       stripPrefix: false
 
+# 可以配置api-url ribbon，对以上的服务进行负载均衡
 ribbon:
   okhttp:
     enabled: true
