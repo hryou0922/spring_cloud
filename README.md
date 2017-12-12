@@ -3,6 +3,7 @@
 - 博客[IntelliJ IDEA工具 - 使用IntelliJ IDEA导入Github工程](http://blog.csdn.net/hry2015/article/details/77984399): 本博客的代码全部存储在Github在，为了方便大家在本地创建工程,本博客演示如何从Github中加载代码到本地工程中以及加载tag分支代码到本地工程中
 
 # 版本更新
+- 20171212 [Spring cloud系列十三 服务网关Zuul](http://blog.csdn.net/hry2015/article/details/78785009)对应的git代码为[tagv0.8](https://github.com/hryou0922/spring_cloud/tree/v0.10)
 - 20171123 [ Spring cloud系列十二 监控Hystrix界面:Hystrix dashboard 和 Turbine](http://blog.csdn.net/hry2015/article/details/78617954)对应的git代码为[tagv0.8](https://github.com/hryou0922/spring_cloud/tree/v0.9)
 - 20171121 [ Spring cloud系列十一 @Feign集成的Hystrix进行个性化配置及集成原理](http://blog.csdn.net/hry2015/article/details/78595645)对应的git代码为[tagv0.8](https://github.com/hryou0922/spring_cloud/tree/v0.8)
 - 20171031 [ Spring cloud系列十 使用@HystrixCommand使用Hystrix组件及@EnableCircuitBreaker原理介绍](http://blog.csdn.net/hry2015/article/details/78577695)对应的git代码为[tagv0.7](https://github.com/hryou0922/spring_cloud/tree/v0.7)
