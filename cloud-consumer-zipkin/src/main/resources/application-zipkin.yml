@@ -1,0 +1,10 @@
+
+spring:
+  zipkin:
+      enabled: true
+      # zipkkin dashboard的地址
+      baseUrl: http://localhost:17601/
+  sleuth:
+    sampler:
+      #  采样率
+      percentage: 1
