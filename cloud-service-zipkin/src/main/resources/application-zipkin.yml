@@ -2,9 +2,13 @@
 
 spring:
   zipkin:
+      # 启动zipkin
       enabled: true
+      # 指定zipkin的地址
       baseUrl: http://localhost:17601/
   sleuth:
     sampler:
-      #  采样率
+      #  采样率，默认值为0.1f，现在为了测试设置100%采集
       percentage: 1
+
+
