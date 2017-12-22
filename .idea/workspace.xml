@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6063c54a-3a81-4928-9c67-c888c394e6ea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_5_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_storage_mysql_1_28_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_storage_mysql_1_28_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_jooq_3_9_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_1_5_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-consumer-zipkin/cloud-consumer-zipkin.iml" afterPath="$PROJECT_DIR$/cloud-consumer-zipkin/cloud-consumer-zipkin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-consumer-zipkin/pom.xml" afterPath="$PROJECT_DIR$/cloud-consumer-zipkin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-consumer-zipkin/src/main/resources/application-zipkin.yml" afterPath="$PROJECT_DIR$/cloud-consumer-zipkin/src/main/resources/application-zipkin.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-dashboard-zipkin/cloud-dashboard-zipkin.iml" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/cloud-dashboard-zipkin.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/java/com/hry/spring/cloud/dashboard/zipkin/http/ZipkinDashboardCloudApplication.java" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/java/com/hry/spring/cloud/dashboard/zipkin/http/ZipkinDashboardCloudApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,91 +44,94 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ZipkinDashboardCloudApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/java/com/hry/spring/cloud/dashboard/zipkin/http/ZipkinDashboardCloudApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-zipkin/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cloud-consumer-zipkin.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-zipkin/cloud-consumer-zipkin.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZipkinCloudConsumerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-zipkin/src/main/java/com/hry/spring/cloud/consumer/zipkin/ZipkinCloudConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application-zipkin.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-zipkin/src/main/resources/application-zipkin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleCtl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-zipkin/src/main/java/com/hry/spring/cloud/consumer/zipkin/control/SimpleCtl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IRibbonClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-consumer-zipkin/src/main/java/com/hry/spring/cloud/consumer/zipkin/feign/IRibbonClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application-zipkin-http.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloud-dashboard-zipkin.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/cloud-dashboard-zipkin.iml">
+      <file leaf-file-name="ZipkinQueryApiV1.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-server/1.28.0/zipkin-server-1.28.0.jar!/zipkin/server/ZipkinQueryApiV1.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="174">
+              <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StorageComponent.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0-sources.jar!/zipkin/storage/StorageComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TracedStorageComponent.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-server/1.28.0/zipkin-server-1.28.0.jar!/zipkin/server/brave/TracedStorageComponent.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MySQLStorage.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-storage-mysql/1.28.0/zipkin-storage-mysql-1.28.0.jar!/zipkin/storage/mysql/MySQLStorage.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InMemoryStorage.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0-sources.jar!/zipkin/storage/InMemoryStorage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#944#945#0" expanded="false" />
+                <element signature="e#974#975#0" expanded="false" />
+                <element signature="e#1592#1593#0" expanded="false" />
+                <element signature="e#1638#1639#0" expanded="false" />
+                <element signature="e#1818#1819#0" expanded="false" />
+                <element signature="e#1847#1848#0" expanded="false" />
+                <element signature="e#2129#2130#0" expanded="false" />
+                <element signature="e#2155#2156#0" expanded="false" />
+                <element signature="e#2209#2210#0" expanded="false" />
+                <element signature="e#2240#2241#0" expanded="false" />
+                <element signature="e#2296#2297#0" expanded="false" />
+                <element signature="e#2335#2336#0" expanded="false" />
+                <element signature="e#2397#2398#0" expanded="false" />
+                <element signature="e#2427#2428#0" expanded="false" />
+                <element signature="e#2452#2453#0" expanded="false" />
+                <element signature="e#2479#2480#0" expanded="false" />
+                <element signature="e#2515#2516#0" expanded="false" />
+                <element signature="e#2559#2560#0" expanded="false" />
+                <element signature="e#2601#2602#0" expanded="false" />
+                <element signature="e#2632#2633#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap-zipkin-http.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/bootstrap-zipkin-http.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -129,8 +140,28 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="219">
+              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="53" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql-connector-java-6.0.6.pom" pinned="false" current-in-tab="false">
+        <entry file="file://D:/mvnrepository_study/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-cloud-starter-zipkin-1.2.5.RELEASE.pom" pinned="false" current-in-tab="false">
+        <entry file="file://D:/mvnrepository_study/org/springframework/cloud/spring-cloud-starter-zipkin/1.2.5.RELEASE/spring-cloud-starter-zipkin-1.2.5.RELEASE.pom">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,12 +177,24 @@
       <find>inpu</find>
       <find>input</find>
       <find>inputs</find>
-      <find>inputst</find>
       <find>factory</find>
       <find>defineClass</find>
       <find>Locator</find>
       <find>ZipkinProperties</find>
       <find>baseUrl</find>
+      <find>zipkin.storage</find>
+      <find>StorageComponent</find>
+      <find>inputst</find>
+      <find>M</find>
+      <find>MY</find>
+      <find>MYSQL</find>
+      <find>MYSQLS</find>
+      <find>MYSQLSt</find>
+      <find>MYSQLSto</find>
+      <find>MYSQLStor</find>
+      <find>MYSQLStora</find>
+      <find>MYSQLStorag</find>
+      <find>MYSQLStorage</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -167,7 +210,7 @@
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SORT_ALPHABETICALLY" value="true" />
-    <option name="SCOPE" value="java" />
+    <option name="SCOPE" value="All" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -187,8 +230,9 @@
         <option value="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/java/com/hry/spring/cloud/dashboard/zipkin/http/ZipkinDashboardCloudApplication.java" />
         <option value="$PROJECT_DIR$/cloud-service-zipkin/src/main/resources/application-zipkin.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer-zipkin/src/main/resources/application-zipkin.yml" />
-        <option value="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml" />
+        <option value="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/bootstrap-zipkin-http.yml" />
         <option value="$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml" />
       </list>
     </option>
   </component>
@@ -488,8 +532,126 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemId" value="Maven: io.zipkin.java:zipkin-server:1.28.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zipkin-server-1.28.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.zipkin.java:zipkin-server:1.28.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zipkin-server-1.28.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.zipkin.java:zipkin-server:1.28.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zipkin-server-1.28.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brave" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.zipkin.java:zipkin:1.28.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zipkin-1.28.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zipkin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.zipkin.java:zipkin:1.28.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zipkin-1.28.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zipkin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring_cloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: io.zipkin.java:zipkin:1.28.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zipkin-1.28.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -504,88 +666,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="&lt; 1.8 &gt;" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="concurrent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="&lt; 1.8 &gt;" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rt.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -822,36 +902,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-dashboard-zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="cloud-consumer-zipkin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -995,7 +1045,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="SearchEverywhereHistoryKey" value="ExecutorService &#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;Span&#9;PSI&#9;JAVA://zipkin.Span&#10;Classload&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;Long&#9;PSI&#9;JAVA://java.lang.Long&#10;AtomicInteger&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;Concurrenthash&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;Thre&#9;FILE&#9;uml://JAVA/java.util.concurrent.ThreadPoolExecutor&#10;future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Runnab&#9;PSI&#9;JAVA://java.lang.Runnable&#10;pha&#9;PSI&#9;JAVA://java.util.concurrent.Phaser&#10;Relock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;ServerSocket&#9;PSI&#9;JAVA://java.net.ServerSocket&#10;Server&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/nio/channels/ServerSocketChannel.java&#10;DatagramSocket &#9;PSI&#9;JAVA://java.net.DatagramSocket&#10;Pipe&#9;PSI&#9;JAVA://java.nio.channels.Pipe&#10;java.nio.Selector&#9;PSI&#9;JAVA://java.nio.channels.Selector&#10;bytebuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;ByteBuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;java.nio.Buffers&#9;PSI&#9;JAVA://java.nio.DirectCharBufferS&#10;Channel&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/nio/channels/Channel.java&#10;FileChannel &#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;Filerea&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/FileReader.java&#10;InputStreamReader&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;inputstrea&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;writer&#9;PSI&#9;JAVA://java.io.Writer&#10;Reader&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/Reader.java&#10;Readable&#9;PSI&#9;JAVA://java.lang.Readable&#10;reader&#9;PSI&#9;JAVA://java.io.Reader&#10;inputstream&#9;PSI&#9;JAVA://java.io.InputStream&#10;inputstr&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;filerea&#9;PSI&#9;JAVA://java.io.FileReader&#10;outstream&#9;PSI&#9;JAVA://java.io.OutputStream&#10;inpust&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStream.java&#10;input&#9;FILE&#9;uml://JAVA/java.io.InputStream&#10;Inputstream&#9;PSI&#9;JAVA://java.io.InputStream&#10;ArrayList&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/ArrayList.java&#10;List&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/schemagen/xmlschema/List.class&#10;arrayl&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/ArrayList.java&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Arraylist&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Phaser &#9;PSI&#9;JAVA://java.util.concurrent.Phaser&#10;WatchService&#9;PSI&#9;JAVA://java.nio.file.WatchService&#10;Objects&#9;PSI&#9;JAVA://java.util.Objects&#10;Closeable&#9;PSI&#9;JAVA://java.io.Closeable&#10;AutoCloseable&#9;PSI&#9;JAVA://java.lang.AutoCloseable&#10;Path&#9;PSI&#9;JAVA://java.nio.file.Path&#10;ForkJoinPool &#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;ForkJoinTask&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/ForkJoinTask.java&#10;ForkJoinPool&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/ForkJoinPool.java" />
+    <property name="SearchEverywhereHistoryKey" value="ZipkinQueryApiV1&#9;PSI&#9;JAVA://zipkin.server.ZipkinQueryApiV1&#10;ExecutorService &#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;Span&#9;PSI&#9;JAVA://zipkin.Span&#10;Classload&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;Long&#9;PSI&#9;JAVA://java.lang.Long&#10;AtomicInteger&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;Concurrenthash&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;Thre&#9;FILE&#9;uml://JAVA/java.util.concurrent.ThreadPoolExecutor&#10;future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Runnab&#9;PSI&#9;JAVA://java.lang.Runnable&#10;pha&#9;PSI&#9;JAVA://java.util.concurrent.Phaser&#10;Relock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;ServerSocket&#9;PSI&#9;JAVA://java.net.ServerSocket&#10;Server&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/nio/channels/ServerSocketChannel.java&#10;DatagramSocket &#9;PSI&#9;JAVA://java.net.DatagramSocket&#10;Pipe&#9;PSI&#9;JAVA://java.nio.channels.Pipe&#10;java.nio.Selector&#9;PSI&#9;JAVA://java.nio.channels.Selector&#10;bytebuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;ByteBuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;java.nio.Buffers&#9;PSI&#9;JAVA://java.nio.DirectCharBufferS&#10;Channel&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/nio/channels/Channel.java&#10;FileChannel &#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;Filerea&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/FileReader.java&#10;InputStreamReader&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;inputstrea&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;writer&#9;PSI&#9;JAVA://java.io.Writer&#10;Reader&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/Reader.java&#10;Readable&#9;PSI&#9;JAVA://java.lang.Readable&#10;reader&#9;PSI&#9;JAVA://java.io.Reader&#10;inputstream&#9;PSI&#9;JAVA://java.io.InputStream&#10;inputstr&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;filerea&#9;PSI&#9;JAVA://java.io.FileReader&#10;outstream&#9;PSI&#9;JAVA://java.io.OutputStream&#10;inpust&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStream.java&#10;input&#9;FILE&#9;uml://JAVA/java.io.InputStream&#10;Inputstream&#9;PSI&#9;JAVA://java.io.InputStream&#10;ArrayList&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/ArrayList.java&#10;List&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/schemagen/xmlschema/List.class&#10;arrayl&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/ArrayList.java&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Arraylist&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Phaser &#9;PSI&#9;JAVA://java.util.concurrent.Phaser&#10;WatchService&#9;PSI&#9;JAVA://java.nio.file.WatchService&#10;Objects&#9;PSI&#9;JAVA://java.util.Objects&#10;Closeable&#9;PSI&#9;JAVA://java.io.Closeable&#10;AutoCloseable&#9;PSI&#9;JAVA://java.lang.AutoCloseable&#10;Path&#9;PSI&#9;JAVA://java.nio.file.Path&#10;ForkJoinPool &#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;ForkJoinTask&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/ForkJoinTask.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1594,12 +1644,12 @@
       <workItem from="1511361435152" duration="9077000" />
       <workItem from="1513076294301" duration="2173000" />
       <workItem from="1513566783432" duration="177000" />
-      <workItem from="1513566988717" duration="46885000" />
+      <workItem from="1513566988717" duration="52516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58312000" />
+    <option name="totallyTimeSpent" value="63943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1612,7 +1662,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="1350" y="283" width="469" height="608" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" x="1451" y="291" width="469" height="608" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1693,73 +1743,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/stream/Sink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="116" column="10" lean-forward="false" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-489">
-          <caret line="153" column="17" lean-forward="false" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DEV_TOOLS/java_src/jdk-e03f9868f7df.zip!/jdk-e03f9868f7df/src/share/classes/javax/net/SocketFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="70" column="9" lean-forward="false" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/javax/management/loading/MLet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="170" column="13" lean-forward="false" selection-start-line="170" selection-start-column="13" selection-end-line="170" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="835" column="23" lean-forward="false" selection-start-line="835" selection-start-column="23" selection-end-line="835" selection-end-column="23" />
-          <folding>
-            <element signature="e#37613#37614#0" expanded="false" />
-            <element signature="e#37645#37646#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DEV_TOOLS/java_src/jdk-e03f9868f7df.zip!/jdk-e03f9868f7df/src/share/classes/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="367" column="39" lean-forward="false" selection-start-line="367" selection-start-column="39" selection-end-line="367" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/security/SecureClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="175" column="0" lean-forward="true" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/DEV_TOOLS/java_src/jdk-e03f9868f7df.zip!/jdk-e03f9868f7df/src/share/classes/java/lang/ClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1270">
@@ -4114,14 +4097,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/bootstrap-zipkin-http.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-consumer-zipkin/src/main/java/com/hry/spring/cloud/consumer/zipkin/control/SimpleCtl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -4194,10 +4169,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-server/1.28.0/zipkin-server-1.28.0.jar!/zipkin/server/ZipkinQueryApiV1.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0.jar!/zipkin/storage/StorageComponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/mvnrepository_study/org/springframework/cloud/spring-cloud-starter-zipkin/1.2.5.RELEASE/spring-cloud-starter-zipkin-1.2.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0-sources.jar!/zipkin/storage/InMemoryStorage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#944#945#0" expanded="false" />
+            <element signature="e#974#975#0" expanded="false" />
+            <element signature="e#1592#1593#0" expanded="false" />
+            <element signature="e#1638#1639#0" expanded="false" />
+            <element signature="e#1818#1819#0" expanded="false" />
+            <element signature="e#1847#1848#0" expanded="false" />
+            <element signature="e#2129#2130#0" expanded="false" />
+            <element signature="e#2155#2156#0" expanded="false" />
+            <element signature="e#2209#2210#0" expanded="false" />
+            <element signature="e#2240#2241#0" expanded="false" />
+            <element signature="e#2296#2297#0" expanded="false" />
+            <element signature="e#2335#2336#0" expanded="false" />
+            <element signature="e#2397#2398#0" expanded="false" />
+            <element signature="e#2427#2428#0" expanded="false" />
+            <element signature="e#2452#2453#0" expanded="false" />
+            <element signature="e#2479#2480#0" expanded="false" />
+            <element signature="e#2515#2516#0" expanded="false" />
+            <element signature="e#2559#2560#0" expanded="false" />
+            <element signature="e#2601#2602#0" expanded="false" />
+            <element signature="e#2632#2633#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0-sources.jar!/zipkin/storage/StorageComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-server/1.28.0/zipkin-server-1.28.0.jar!/zipkin/server/brave/TracedStorageComponent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-storage-mysql/1.28.0/zipkin-storage-mysql-1.28.0.jar!/zipkin/storage/mysql/MySQLStorage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/mvnrepository_study/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/bootstrap-zipkin-http.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="219">
+          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="53" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -4205,7 +4275,7 @@
     <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="30" />
           <folding />
         </state>
       </provider>
