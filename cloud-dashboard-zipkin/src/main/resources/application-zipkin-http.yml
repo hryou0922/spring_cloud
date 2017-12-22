@@ -1,4 +1,4 @@
 spring:
   zipkin:
-    enabled: true
-    base-url: http://localhost:17601/
+    enabled: false
+#    base-url: http://localhost:17601/
