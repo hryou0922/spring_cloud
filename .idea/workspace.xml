@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6063c54a-3a81-4928-9c67-c888c394e6ea" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_2_5_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_autoconfigure_storage_mysql_1_28_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_java_zipkin_storage_mysql_1_28_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_jdbc_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_juli_8_5_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jooq_jooq_3_9_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mariadb_jdbc_mariadb_java_client_1_5_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_1_5_6_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_10_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_10_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-dashboard-zipkin/cloud-dashboard-zipkin.iml" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/cloud-dashboard-zipkin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml" afterPath="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/cloud-consumer/target/" />
@@ -43,32 +29,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="application-zipkin-http.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-consumer-zipkin/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZipkinQueryApiV1.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-server/1.28.0/zipkin-server-1.28.0.jar!/zipkin/server/ZipkinQueryApiV1.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StorageComponent.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0-sources.jar!/zipkin/storage/StorageComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="405">
+              <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -87,8 +53,58 @@
       <file leaf-file-name="MySQLStorage.class" pinned="false" current-in-tab="false">
         <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-storage-mysql/1.28.0/zipkin-storage-mysql-1.28.0.jar!/zipkin/storage/mysql/MySQLStorage.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerSocket.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/net/ServerSocket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="366">
+              <caret line="511" column="27" lean-forward="false" selection-start-line="511" selection-start-column="27" selection-end-line="511" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Socket.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/net/Socket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="508">
+              <caret line="1325" column="43" lean-forward="false" selection-start-line="1325" selection-start-column="43" selection-end-line="1325" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketOptions.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/net/SocketOptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="318" column="40" lean-forward="true" selection-start-line="318" selection-start-column="40" selection-end-line="318" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Socket.java" pinned="false" current-in-tab="true">
+        <entry file="jar://D:/DEV_TOOLS/java_src/jdk-e03f9868f7df.zip!/jdk-e03f9868f7df/src/share/classes/java/net/Socket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocketImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/net/SocketImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="111" column="28" lean-forward="false" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -98,70 +114,17 @@
         <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0-sources.jar!/zipkin/storage/InMemoryStorage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#944#945#0" expanded="false" />
-                <element signature="e#974#975#0" expanded="false" />
-                <element signature="e#1592#1593#0" expanded="false" />
-                <element signature="e#1638#1639#0" expanded="false" />
-                <element signature="e#1818#1819#0" expanded="false" />
-                <element signature="e#1847#1848#0" expanded="false" />
-                <element signature="e#2129#2130#0" expanded="false" />
-                <element signature="e#2155#2156#0" expanded="false" />
-                <element signature="e#2209#2210#0" expanded="false" />
-                <element signature="e#2240#2241#0" expanded="false" />
-                <element signature="e#2296#2297#0" expanded="false" />
-                <element signature="e#2335#2336#0" expanded="false" />
-                <element signature="e#2397#2398#0" expanded="false" />
-                <element signature="e#2427#2428#0" expanded="false" />
-                <element signature="e#2452#2453#0" expanded="false" />
-                <element signature="e#2479#2480#0" expanded="false" />
-                <element signature="e#2515#2516#0" expanded="false" />
-                <element signature="e#2559#2560#0" expanded="false" />
-                <element signature="e#2601#2602#0" expanded="false" />
-                <element signature="e#2632#2633#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap-zipkin-http.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/bootstrap-zipkin-http.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml">
+      <file leaf-file-name="InMemoryStorage$$Lambda$1.class" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0.jar!/zipkin/storage/InMemoryStorage$$Lambda$1.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="53" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql-connector-java-6.0.6.pom" pinned="false" current-in-tab="false">
-        <entry file="file://D:/mvnrepository_study/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.pom">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-cloud-starter-zipkin-1.2.5.RELEASE.pom" pinned="false" current-in-tab="false">
-        <entry file="file://D:/mvnrepository_study/org/springframework/cloud/spring-cloud-starter-zipkin/1.2.5.RELEASE/spring-cloud-starter-zipkin-1.2.5.RELEASE.pom">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="133">
+              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -231,8 +194,8 @@
         <option value="$PROJECT_DIR$/cloud-service-zipkin/src/main/resources/application-zipkin.yml" />
         <option value="$PROJECT_DIR$/cloud-consumer-zipkin/src/main/resources/application-zipkin.yml" />
         <option value="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/bootstrap-zipkin-http.yml" />
-        <option value="$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml" />
+        <option value="$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml" />
       </list>
     </option>
   </component>
@@ -306,8 +269,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -330,15 +294,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework:spring-web:4.3.10.RELEASE" />
+              <option name="myItemId" value="Maven: io.zipkin.java:zipkin-storage-mysql:1.28.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-web-4.3.10.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springframework" />
+              <option name="myItemId" value="zipkin-storage-mysql-1.28.0.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -352,239 +312,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework:spring-web:4.3.10.RELEASE" />
+              <option name="myItemId" value="Maven: io.zipkin.java:zipkin-storage-mysql:1.28.0" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spring-web-4.3.10.RELEASE.jar" />
+              <option name="myItemId" value="zipkin-storage-mysql-1.28.0.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="springframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework:spring-web:4.3.10.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-web-4.3.10.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springframework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="http" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework:spring-web:4.3.10.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-web-4.3.10.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.cloud:spring-cloud-sleuth-zipkin:1.2.5.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-sleuth-zipkin-1.2.5.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.cloud:spring-cloud-sleuth-zipkin:1.2.5.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-sleuth-zipkin-1.2.5.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.cloud:spring-cloud-sleuth-core:1.2.5.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-sleuth-core-1.2.5.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sleuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.cloud:spring-cloud-sleuth-core:1.2.5.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-sleuth-core-1.2.5.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sleuth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sampler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: org.springframework.cloud:spring-cloud-sleuth-core:1.2.5.RELEASE" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-cloud-sleuth-core-1.2.5.RELEASE.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: io.zipkin.java:zipkin-server:1.28.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin-server-1.28.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: io.zipkin.java:zipkin-server:1.28.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin-server-1.28.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Maven: io.zipkin.java:zipkin-server:1.28.0" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin-server-1.28.0.jar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brave" />
+              <option name="myItemId" value="mysql" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -674,7 +410,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-service-zipkin" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -684,33 +428,19 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-service-zipkin" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rt.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-service-zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -720,15 +450,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-service-zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="&lt; 1.8 &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="rt.jar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -736,87 +466,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-service-zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="control" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-registration-center" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-registration-center" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-registration-center" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="net" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -841,10 +491,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -885,152 +531,11 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-consumer-zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-consumer-zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-consumer-zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-consumer-zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-consumer-zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="feign" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring_cloud" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cloud-consumer-zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="zipkin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="control" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -1045,7 +550,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
-    <property name="SearchEverywhereHistoryKey" value="ZipkinQueryApiV1&#9;PSI&#9;JAVA://zipkin.server.ZipkinQueryApiV1&#10;ExecutorService &#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;Span&#9;PSI&#9;JAVA://zipkin.Span&#10;Classload&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;Long&#9;PSI&#9;JAVA://java.lang.Long&#10;AtomicInteger&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;Concurrenthash&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;Thre&#9;FILE&#9;uml://JAVA/java.util.concurrent.ThreadPoolExecutor&#10;future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Runnab&#9;PSI&#9;JAVA://java.lang.Runnable&#10;pha&#9;PSI&#9;JAVA://java.util.concurrent.Phaser&#10;Relock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;ServerSocket&#9;PSI&#9;JAVA://java.net.ServerSocket&#10;Server&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/nio/channels/ServerSocketChannel.java&#10;DatagramSocket &#9;PSI&#9;JAVA://java.net.DatagramSocket&#10;Pipe&#9;PSI&#9;JAVA://java.nio.channels.Pipe&#10;java.nio.Selector&#9;PSI&#9;JAVA://java.nio.channels.Selector&#10;bytebuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;ByteBuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;java.nio.Buffers&#9;PSI&#9;JAVA://java.nio.DirectCharBufferS&#10;Channel&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/nio/channels/Channel.java&#10;FileChannel &#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;Filerea&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/FileReader.java&#10;InputStreamReader&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;inputstrea&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;writer&#9;PSI&#9;JAVA://java.io.Writer&#10;Reader&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/Reader.java&#10;Readable&#9;PSI&#9;JAVA://java.lang.Readable&#10;reader&#9;PSI&#9;JAVA://java.io.Reader&#10;inputstream&#9;PSI&#9;JAVA://java.io.InputStream&#10;inputstr&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;filerea&#9;PSI&#9;JAVA://java.io.FileReader&#10;outstream&#9;PSI&#9;JAVA://java.io.OutputStream&#10;inpust&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStream.java&#10;input&#9;FILE&#9;uml://JAVA/java.io.InputStream&#10;Inputstream&#9;PSI&#9;JAVA://java.io.InputStream&#10;ArrayList&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/ArrayList.java&#10;List&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/schemagen/xmlschema/List.class&#10;arrayl&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/ArrayList.java&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Arraylist&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Phaser &#9;PSI&#9;JAVA://java.util.concurrent.Phaser&#10;WatchService&#9;PSI&#9;JAVA://java.nio.file.WatchService&#10;Objects&#9;PSI&#9;JAVA://java.util.Objects&#10;Closeable&#9;PSI&#9;JAVA://java.io.Closeable&#10;AutoCloseable&#9;PSI&#9;JAVA://java.lang.AutoCloseable&#10;Path&#9;PSI&#9;JAVA://java.nio.file.Path&#10;ForkJoinPool &#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;ForkJoinTask&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/ForkJoinTask.java" />
+    <property name="SearchEverywhereHistoryKey" value="ServerSocket&#9;PSI&#9;JAVA://java.net.ServerSocket&#10;ZipkinQueryApiV1&#9;PSI&#9;JAVA://zipkin.server.ZipkinQueryApiV1&#10;ExecutorService &#9;PSI&#9;JAVA://java.util.concurrent.ExecutorService&#10;Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;Span&#9;PSI&#9;JAVA://zipkin.Span&#10;Classload&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;Long&#9;PSI&#9;JAVA://java.lang.Long&#10;AtomicInteger&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/atomic/AtomicInteger.java&#10;Concurrenthash&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/ConcurrentHashMap.java&#10;Thre&#9;FILE&#9;uml://JAVA/java.util.concurrent.ThreadPoolExecutor&#10;future&#9;PSI&#9;JAVA://java.util.concurrent.Future&#10;Runnab&#9;PSI&#9;JAVA://java.lang.Runnable&#10;pha&#9;PSI&#9;JAVA://java.util.concurrent.Phaser&#10;Relock&#9;PSI&#9;JAVA://java.util.concurrent.locks.ReentrantLock&#10;Server&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/nio/channels/ServerSocketChannel.java&#10;DatagramSocket &#9;PSI&#9;JAVA://java.net.DatagramSocket&#10;Pipe&#9;PSI&#9;JAVA://java.nio.channels.Pipe&#10;java.nio.Selector&#9;PSI&#9;JAVA://java.nio.channels.Selector&#10;bytebuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;ByteBuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;java.nio.Buffers&#9;PSI&#9;JAVA://java.nio.DirectCharBufferS&#10;Channel&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/nio/channels/Channel.java&#10;FileChannel &#9;PSI&#9;JAVA://java.nio.channels.FileChannel&#10;Filerea&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/FileReader.java&#10;InputStreamReader&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;inputstrea&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;writer&#9;PSI&#9;JAVA://java.io.Writer&#10;Reader&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/Reader.java&#10;Readable&#9;PSI&#9;JAVA://java.lang.Readable&#10;reader&#9;PSI&#9;JAVA://java.io.Reader&#10;inputstream&#9;PSI&#9;JAVA://java.io.InputStream&#10;inputstr&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStreamReader.java&#10;filerea&#9;PSI&#9;JAVA://java.io.FileReader&#10;outstream&#9;PSI&#9;JAVA://java.io.OutputStream&#10;inpust&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/io/InputStream.java&#10;input&#9;FILE&#9;uml://JAVA/java.io.InputStream&#10;Inputstream&#9;PSI&#9;JAVA://java.io.InputStream&#10;ArrayList&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/ArrayList.java&#10;List&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/jre/lib/rt.jar!/com/sun/xml/internal/bind/v2/schemagen/xmlschema/List.class&#10;arrayl&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/ArrayList.java&#10;Hashmap&#9;PSI&#9;JAVA://java.util.HashMap&#10;Arraylist&#9;PSI&#9;JAVA://java.util.ArrayList&#10;Phaser &#9;PSI&#9;JAVA://java.util.concurrent.Phaser&#10;WatchService&#9;PSI&#9;JAVA://java.nio.file.WatchService&#10;Objects&#9;PSI&#9;JAVA://java.util.Objects&#10;Closeable&#9;PSI&#9;JAVA://java.io.Closeable&#10;AutoCloseable&#9;PSI&#9;JAVA://java.lang.AutoCloseable&#10;Path&#9;PSI&#9;JAVA://java.nio.file.Path&#10;ForkJoinPool &#9;PSI&#9;JAVA://java.util.concurrent.ForkJoinPool&#10;ForkJoinTask&#9;FILE&#9;jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/util/concurrent/ForkJoinTask.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1644,12 +1149,13 @@
       <workItem from="1511361435152" duration="9077000" />
       <workItem from="1513076294301" duration="2173000" />
       <workItem from="1513566783432" duration="177000" />
-      <workItem from="1513566988717" duration="52547000" />
+      <workItem from="1513566988717" duration="53311000" />
+      <workItem from="1514169917168" duration="2779000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63974000" />
+    <option name="totallyTimeSpent" value="67517000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1671,24 +1177,24 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2924107" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20735608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20948827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39732143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39732143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1744,406 +1250,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/DEV_TOOLS/java_src/jdk-e03f9868f7df.zip!/jdk-e03f9868f7df/src/share/classes/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1270">
-          <caret line="638" column="29" lean-forward="false" selection-start-line="638" selection-start-column="29" selection-end-line="638" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/net/URLClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2615">
-          <caret line="458" column="60" lean-forward="true" selection-start-line="458" selection-start-column="60" selection-end-line="458" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nio.uml">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.nio.channels.FileChannel</OriginalElement>
-          <nodes>
-            <node x="1189.2749999999999" y="360.0">java.nio.channels.AsynchronousServerSocketChannel</node>
-            <node x="428.0" y="655.0">java.nio.FloatBuffer</node>
-            <node x="409.49392857142834" y="490.0">java.nio.channels.DatagramChannel</node>
-            <node x="24.0" y="810.0">java.nio.channels.Selector</node>
-            <node x="809.0" y="655.0">java.nio.ShortBuffer</node>
-            <node x="1680.2749999999999" y="360.0">java.nio.channels.AsynchronousFileChannel</node>
-            <node x="834.3423214285715" y="360.0">java.nio.channels.spi.AbstractSelectableChannel</node>
-            <node x="25.0" y="655.0">java.nio.ByteBuffer</node>
-            <node x="1460.2749999999999" y="360.0">java.nio.channels.AsynchronousByteChannel</node>
-            <node x="1502.791845238095" y="270.0">java.nio.channels.AsynchronousChannel</node>
-            <node x="0.0" y="890.0">java.nio.channels.spi.AbstractSelector</node>
-            <node x="264.39458333333323" y="100.0">java.nio.channels.InterruptibleChannel</node>
-            <node x="163.0" y="890.0">java.nio.channels.spi.SelectorProvider</node>
-            <node x="760.5439285714283" y="490.0">java.nio.channels.SocketChannel</node>
-            <node x="559.0" y="655.0">java.nio.IntBuffer</node>
-            <node x="442.0" y="565.0">java.nio.Buffer</node>
-            <node x="329.5" y="270.0">java.nio.channels.ByteChannel</node>
-            <node x="287.14458333333323" y="180.0">java.nio.channels.spi.AbstractInterruptibleChannel</node>
-            <node x="668.375" y="0.0">java.nio.channels.Channel</node>
-            <node x="327.0" y="890.0">java.nio.channels.Pipe</node>
-            <node x="1303.0612499999997" y="490.0">java.nio.channels.AsynchronousSocketChannel</node>
-            <node x="572.8423214285715" y="180.0">java.nio.channels.ReadableByteChannel</node>
-            <node x="399.5" y="360.0">java.nio.channels.ScatteringByteChannel</node>
-            <node x="153.0" y="655.0">java.nio.CharBuffer</node>
-            <node x="283.0" y="655.0">java.nio.DoubleBuffer</node>
-            <node x="1014.1673214285713" y="490.0">java.nio.channels.ServerSocketChannel</node>
-            <node x="10.5" y="360.0">java.nio.channels.SeekableByteChannel</node>
-            <node x="787.4999999999999" y="270.0">java.nio.channels.SelectableChannel</node>
-            <node x="40.30226190476162" y="180.0">java.nio.channels.WritableByteChannel</node>
-            <node x="1004.9110714285714" y="270.0">java.nio.channels.NetworkChannel</node>
-            <node x="677.0" y="655.0">java.nio.LongBuffer</node>
-            <node x="596.5" y="360.0">java.nio.channels.MulticastChannel</node>
-            <node x="20.0" y="490.0">java.nio.channels.FileChannel</node>
-            <node x="202.5" y="360.0">java.nio.channels.GatheringByteChannel</node>
-            <node x="0.0" y="735.0">java.nio.MappedByteBuffer</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.ScatteringByteChannel">
-              <point x="-26.600000000000023" y="-15.0" />
-              <point x="800.4439285714284" y="420.0" />
-              <point x="547.0" y="420.0" />
-              <point x="59.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.ByteChannel" target="java.nio.channels.WritableByteChannel">
-              <point x="-29.75" y="-15.0" />
-              <point x="359.25" y="230.0" />
-              <point x="166.30226190476162" y="230.0" />
-              <point x="42.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.DatagramChannel" target="java.nio.channels.ByteChannel">
-              <point x="-30.400000000000034" y="-15.0" />
-              <point x="455.0939285714283" y="450.0" />
-              <point x="389.0" y="450.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.WritableByteChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-15.0" />
-              <point x="124.30226190476162" y="50.0" />
-              <point x="675.0892857142857" y="50.0" />
-              <point x="-40.285714285714334" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.ReadableByteChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-15.0" />
-              <point x="659.8423214285715" y="80.0" />
-              <point x="715.375" y="80.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.GatheringByteChannel">
-              <point x="-53.200000000000045" y="-15.0" />
-              <point x="773.8439285714283" y="430.0" />
-              <point x="349.16666666666663" y="430.0" />
-              <point x="58.66666666666663" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.DatagramChannel" target="java.nio.channels.ScatteringByteChannel">
-              <point x="0.0" y="-15.0" />
-              <point x="485.49392857142834" y="470.0" />
-              <point x="488.0" y="470.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.NetworkChannel">
-              <point x="53.200000000000045" y="-15.0" />
-              <point x="880.2439285714283" y="470.0" />
-              <point x="1055.7673214285714" y="470.0" />
-              <point x="1055.7673214285714" y="340.0" />
-              <point x="1048.1110714285714" y="340.0" />
-              <point x="-28.799999999999955" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.InterruptibleChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-15.0" />
-              <point x="347.39458333333323" y="60.0" />
-              <point x="688.5178571428571" y="60.0" />
-              <point x="-26.85714285714289" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.GatheringByteChannel" target="java.nio.channels.WritableByteChannel">
-              <point x="0.0" y="-15.0" />
-              <point x="290.5" y="330.0" />
-              <point x="187.55226190476162" y="330.0" />
-              <point x="187.55226190476162" y="240.0" />
-              <point x="82.30226190476162" y="240.0" />
-              <point x="-42.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.ScatteringByteChannel" target="java.nio.channels.ReadableByteChannel">
-              <point x="0.0" y="-15.0" />
-              <point x="488.0" y="340.0" />
-              <point x="611.4001785714286" y="340.0" />
-              <point x="611.4001785714286" y="250.0" />
-              <point x="703.3423214285715" y="250.0" />
-              <point x="43.5" y="15.0" />
-            </edge>
-            <edge source="java.nio.FloatBuffer" target="java.nio.Buffer">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.ByteChannel">
-              <point x="0.0" y="-15.0" />
-              <point x="827.0439285714283" y="410.0" />
-              <point x="752.9999999999999" y="410.0" />
-              <point x="752.9999999999999" y="330.0" />
-              <point x="428.66666666666663" y="330.0" />
-              <point x="39.66666666666663" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.AsynchronousByteChannel" target="java.nio.channels.AsynchronousChannel">
-              <point x="0.0" y="-15.0" />
-              <point x="1560.2749999999999" y="340.0" />
-              <point x="1590.291845238095" y="340.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.SelectableChannel" target="java.nio.channels.spi.AbstractInterruptibleChannel">
-              <point x="-38.25" y="-15.0" />
-              <point x="825.7499999999999" y="230.0" />
-              <point x="447.64458333333323" y="230.0" />
-              <point x="53.5" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.DatagramChannel" target="java.nio.channels.GatheringByteChannel">
-              <point x="-60.80000000000001" y="-15.0" />
-              <point x="424.69392857142833" y="460.0" />
-              <point x="290.5" y="460.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.FileChannel" target="java.nio.channels.GatheringByteChannel">
-              <point x="14.125" y="-15.0" />
-              <point x="90.625" y="460.0" />
-              <point x="231.83333333333337" y="460.0" />
-              <point x="-58.66666666666666" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.FileChannel" target="java.nio.channels.SeekableByteChannel">
-              <point x="-14.125" y="-15.0" />
-              <point x="62.375" y="450.0" />
-              <point x="96.5" y="450.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.SeekableByteChannel" target="java.nio.channels.ByteChannel">
-              <point x="0.0" y="-15.0" />
-              <point x="96.5" y="340.0" />
-              <point x="349.3333333333333" y="340.0" />
-              <point x="-39.666666666666686" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractInterruptibleChannel" target="java.nio.channels.InterruptibleChannel">
-              <point x="-53.5" y="-15.0" />
-              <point x="340.64458333333323" y="155.0" />
-              <point x="347.39458333333323" y="155.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.LongBuffer" target="java.nio.Buffer">
-              <point x="0.0" y="-15.0" />
-              <point x="733.0" y="625.0" />
-              <point x="507.2142857142857" y="625.0" />
-              <point x="23.714285714285722" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.ServerSocketChannel" target="java.nio.channels.NetworkChannel">
-              <point x="42.5" y="-15.0" />
-              <point x="1140.8112499999997" y="340.0" />
-              <point x="1076.9110714285714" y="340.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.ByteBuffer" target="java.nio.Buffer">
-              <point x="0.0" y="-15.0" />
-              <point x="79.0" y="615.0" />
-              <point x="447.92857142857144" y="615.0" />
-              <point x="-35.571428571428555" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.SelectableChannel" target="java.nio.channels.Channel">
-              <point x="38.25" y="-15.0" />
-              <point x="902.2499999999999" y="250.0" />
-              <point x="973.0923214285715" y="250.0" />
-              <point x="973.0923214285715" y="80.0" />
-              <point x="728.8035714285714" y="80.0" />
-              <point x="13.428571428571445" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.SocketChannel" target="java.nio.channels.spi.AbstractSelectableChannel">
-              <point x="26.600000000000023" y="-15.0" />
-              <point x="853.6439285714284" y="460.0" />
-              <point x="934.8423214285715" y="460.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.DoubleBuffer" target="java.nio.Buffer">
-              <point x="0.0" y="-15.0" />
-              <point x="345.5" y="635.0" />
-              <point x="471.6428571428571" y="635.0" />
-              <point x="-11.85714285714289" y="15.0" />
-            </edge>
-            <edge source="java.nio.IntBuffer" target="java.nio.Buffer">
-              <point x="0.0" y="-15.0" />
-              <point x="608.0" y="635.0" />
-              <point x="495.35714285714283" y="635.0" />
-              <point x="11.857142857142833" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.FileChannel" target="java.nio.channels.ScatteringByteChannel">
-              <point x="42.375" y="-15.0" />
-              <point x="118.875" y="470.0" />
-              <point x="429.0" y="470.0" />
-              <point x="-59.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.DatagramChannel" target="java.nio.channels.MulticastChannel">
-              <point x="30.399999999999977" y="-15.0" />
-              <point x="515.8939285714283" y="440.0" />
-              <point x="669.5" y="440.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.AsynchronousChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-15.0" />
-              <point x="1590.291845238095" y="60.0" />
-              <point x="755.6607142857142" y="60.0" />
-              <point x="40.28571428571422" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.NetworkChannel" target="java.nio.channels.Channel">
-              <point x="0.0" y="-15.0" />
-              <point x="1076.9110714285714" y="70.0" />
-              <point x="742.2321428571429" y="70.0" />
-              <point x="26.85714285714289" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.ByteChannel" target="java.nio.channels.ReadableByteChannel">
-              <point x="29.75" y="-15.0" />
-              <point x="418.75" y="240.0" />
-              <point x="616.3423214285715" y="240.0" />
-              <point x="-43.5" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.AsynchronousSocketChannel" target="java.nio.channels.NetworkChannel">
-              <point x="-53.5" y="-15.0" />
-              <point x="1356.5612499999997" y="470.0" />
-              <point x="1178.7749999999999" y="470.0" />
-              <point x="1178.7749999999999" y="330.0" />
-              <point x="1105.7110714285714" y="330.0" />
-              <point x="28.799999999999955" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractInterruptibleChannel" target="java.nio.channels.Channel">
-              <point x="53.5" y="-15.0" />
-              <point x="447.64458333333323" y="155.0" />
-              <point x="440.89458333333323" y="155.0" />
-              <point x="440.89458333333323" y="70.0" />
-              <point x="701.9464285714286" y="70.0" />
-              <point x="-13.428571428571445" y="15.0" />
-            </edge>
-            <edge source="java.nio.ShortBuffer" target="java.nio.Buffer">
-              <point x="0.0" y="-15.0" />
-              <point x="866.0" y="615.0" />
-              <point x="519.0714285714286" y="615.0" />
-              <point x="35.571428571428555" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.MulticastChannel" target="java.nio.channels.NetworkChannel">
-              <point x="0.0" y="-15.0" />
-              <point x="669.5" y="340.0" />
-              <point x="1019.3110714285713" y="340.0" />
-              <point x="-57.60000000000002" y="15.0" />
-            </edge>
-            <edge source="java.nio.CharBuffer" target="java.nio.Buffer">
-              <point x="0.0" y="-15.0" />
-              <point x="208.0" y="625.0" />
-              <point x="459.7857142857143" y="625.0" />
-              <point x="-23.714285714285722" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.AsynchronousServerSocketChannel" target="java.nio.channels.NetworkChannel">
-              <point x="-62.75" y="-15.0" />
-              <point x="1252.0249999999999" y="320.0" />
-              <point x="1134.5110714285713" y="320.0" />
-              <point x="57.59999999999991" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.AsynchronousServerSocketChannel" target="java.nio.channels.AsynchronousChannel">
-              <point x="62.75" y="-15.0" />
-              <point x="1377.5249999999999" y="340.0" />
-              <point x="1531.9585119047617" y="340.0" />
-              <point x="-58.33333333333326" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.AsynchronousFileChannel" target="java.nio.channels.AsynchronousChannel">
-              <point x="0.0" y="-15.0" />
-              <point x="1777.2749999999999" y="340.0" />
-              <point x="1648.6251785714283" y="340.0" />
-              <point x="58.33333333333326" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.ServerSocketChannel" target="java.nio.channels.spi.AbstractSelectableChannel">
-              <point x="-42.5" y="-15.0" />
-              <point x="1056.6673214285713" y="460.0" />
-              <point x="1001.8423214285715" y="460.0" />
-              <point x="67.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.DatagramChannel" target="java.nio.channels.spi.AbstractSelectableChannel">
-              <point x="60.799999999999955" y="-15.0" />
-              <point x="546.2939285714283" y="450.0" />
-              <point x="867.8423214285715" y="450.0" />
-              <point x="-67.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractSelector" target="java.nio.channels.Selector">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.MappedByteBuffer" target="java.nio.ByteBuffer">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.spi.AbstractSelectableChannel" target="java.nio.channels.SelectableChannel">
-              <point x="0.0" y="-15.0" />
-              <point x="934.8423214285715" y="330.0" />
-              <point x="863.9999999999999" y="330.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.FileChannel" target="java.nio.channels.spi.AbstractInterruptibleChannel">
-              <point x="-42.375" y="-15.0" />
-              <point x="34.125" y="470.0" />
-              <point x="0.0" y="470.0" />
-              <point x="0.0" y="250.0" />
-              <point x="340.64458333333323" y="250.0" />
-              <point x="-53.5" y="15.0" />
-            </edge>
-            <edge source="java.nio.channels.AsynchronousSocketChannel" target="java.nio.channels.AsynchronousByteChannel">
-              <point x="53.5" y="-15.0" />
-              <point x="1463.5612499999997" y="470.0" />
-              <point x="1560.2749999999999" y="470.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="212.0" y="219.0" />
-          <SelectedNodes>
-            <node>java.nio.channels.FileChannel</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0.jar!/zipkin/Span.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-hystrix/src/main/java/com/hry/spring/cloud/service/hystrix/control/SimpleCtl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-hystrix/src/main/java/com/hry/spring/cloud/service/hystrix/HystrixCloudServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-hystrix/src/main/resources/application-hystrix.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-service-hystrix/src/main/resources/bootstrap-hystrix.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2151,10 +1261,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2178,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2186,7 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2202,7 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2210,7 +1313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2226,16 +1328,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding>
-            <element signature="e#1229#1230#0" expanded="false" />
-            <element signature="e#1255#1256#0" expanded="false" />
-            <element signature="e#1679#1680#0" expanded="false" />
-            <element signature="e#1708#1709#0" expanded="false" />
-            <element signature="e#2673#2674#0" expanded="false" />
-            <element signature="e#2698#2699#0" expanded="false" />
-            <element signature="e#3158#3159#0" expanded="false" />
-            <element signature="e#3191#3192#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2251,7 +1343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2259,12 +1350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="3833" column="32" lean-forward="true" selection-start-line="3833" selection-start-column="32" selection-end-line="3833" selection-end-column="32" />
-          <folding>
-            <element signature="e#177013#177014#0" expanded="false" />
-            <element signature="e#177054#177055#0" expanded="false" />
-            <element signature="e#177353#177354#0" expanded="false" />
-            <element signature="e#177410#177411#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2280,7 +1365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-266">
           <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2288,10 +1372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="582" column="0" lean-forward="true" selection-start-line="582" selection-start-column="0" selection-end-line="582" selection-end-column="0" />
-          <folding>
-            <element signature="e#26957#26958#0" expanded="false" />
-            <element signature="e#27022#27023#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2299,7 +1379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="24" column="15" lean-forward="true" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2315,7 +1394,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2323,7 +1401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4091,9 +3168,10 @@
               <point x="-39.0" y="-0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.8770771950500883" x="1115.8253157753293" y="998.3349234076861" />
+          <settings layout="Hierarchic Group" zoom="0.8770771950500883" x="1116.0" y="998.0" />
           <SelectedNodes />
           <Categories />
+          <SCOPE>All</SCOPE>
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
@@ -4102,7 +3180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4110,15 +3187,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-consumer-zipkin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4126,7 +3194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4142,7 +3209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4158,7 +3224,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4166,15 +3231,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-server/1.28.0/zipkin-server-1.28.0.jar!/zipkin/server/ZipkinQueryApiV1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4182,54 +3238,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="16" lean-forward="false" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/mvnrepository_study/org/springframework/cloud/spring-cloud-starter-zipkin/1.2.5.RELEASE/spring-cloud-starter-zipkin-1.2.5.RELEASE.pom">
+    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-server/1.28.0/zipkin-server-1.28.0.jar!/zipkin/server/ZipkinQueryApiV1.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="494">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0-sources.jar!/zipkin/storage/InMemoryStorage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#944#945#0" expanded="false" />
-            <element signature="e#974#975#0" expanded="false" />
-            <element signature="e#1592#1593#0" expanded="false" />
-            <element signature="e#1638#1639#0" expanded="false" />
-            <element signature="e#1818#1819#0" expanded="false" />
-            <element signature="e#1847#1848#0" expanded="false" />
-            <element signature="e#2129#2130#0" expanded="false" />
-            <element signature="e#2155#2156#0" expanded="false" />
-            <element signature="e#2209#2210#0" expanded="false" />
-            <element signature="e#2240#2241#0" expanded="false" />
-            <element signature="e#2296#2297#0" expanded="false" />
-            <element signature="e#2335#2336#0" expanded="false" />
-            <element signature="e#2397#2398#0" expanded="false" />
-            <element signature="e#2427#2428#0" expanded="false" />
-            <element signature="e#2452#2453#0" expanded="false" />
-            <element signature="e#2479#2480#0" expanded="false" />
-            <element signature="e#2515#2516#0" expanded="false" />
-            <element signature="e#2559#2560#0" expanded="false" />
-            <element signature="e#2601#2602#0" expanded="false" />
-            <element signature="e#2632#2633#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0-sources.jar!/zipkin/storage/StorageComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="209">
           <caret line="24" column="33" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4237,14 +3272,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-storage-mysql/1.28.0/zipkin-storage-mysql-1.28.0.jar!/zipkin/storage/mysql/MySQLStorage.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -4257,6 +3284,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/mvnrepository_study/org/springframework/cloud/spring-cloud-starter-zipkin/1.2.5.RELEASE/spring-cloud-starter-zipkin-1.2.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-consumer-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="21" lean-forward="false" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/mvnrepository_study/io/zipkin/java/zipkin-autoconfigure-storage-mysql/1.28.0/zipkin-autoconfigure-storage-mysql-1.28.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/bootstrap-zipkin-http.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -4265,18 +3324,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/pom.xml">
+    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0.jar!/zipkin/storage/InMemoryStorage$$Lambda$1.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="53" selection-end-column="21" />
+        <state relative-caret-position="133">
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-dashboard-zipkin/src/main/resources/application-zipkin-http.yml">
+    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin/1.28.0/zipkin-1.28.0-sources.jar!/zipkin/storage/InMemoryStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="152">
+          <caret line="21" column="62" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/mvnrepository_study/io/zipkin/java/zipkin-storage-mysql/1.28.0/zipkin-storage-mysql-1.28.0.jar!/zipkin/storage/mysql/MySQLStorage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/net/ServerSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="511" column="27" lean-forward="false" selection-start-line="511" selection-start-column="27" selection-end-line="511" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/net/SocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="111" column="28" lean-forward="false" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="1325" column="43" lean-forward="false" selection-start-line="1325" selection-start-column="43" selection-end-line="1325" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DEV_TOOLS/jdk1.8.0_66/src.zip!/java/net/SocketOptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="318" column="40" lean-forward="true" selection-start-line="318" selection-start-column="40" selection-end-line="318" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DEV_TOOLS/java_src/jdk-e03f9868f7df.zip!/jdk-e03f9868f7df/src/share/classes/java/net/Socket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding />
         </state>
       </provider>
