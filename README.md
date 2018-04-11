@@ -3,6 +3,7 @@
 - 博客[IntelliJ IDEA工具 - 使用IntelliJ IDEA导入Github工程](http://blog.csdn.net/hry2015/article/details/77984399): 本博客的代码全部存储在Github在，为了方便大家在本地创建工程,本博客演示如何从Github中加载代码到本地工程中以及加载tag分支代码到本地工程中
 
 # Spring Cloud 的各种Demo的博客地址如下：
+- 20180411 [Spring cloud系列十五 使用线程池优化feign的http请求组件](https://blog.csdn.net/hry2015/article/details/79904815)对应的git代码为[tagv0.12](https://github.com/hryou0922/spring_cloud/tree/v0.12/cloud-consumer-hystrix/src/main/java/com/hry/spring/cloud/consumer/hystrix/feign)
 - 20171226 [Spring cloud系列十四 分布式链路监控Spring Cloud Sleuth](http://blog.csdn.net/hry2015/article/details/78905489)对应的git代码为[tagv0.11](https://github.com/hryou0922/spring_cloud/tree/v0.11)
 - 20171212 [Spring cloud系列十三 服务网关Zuul](http://blog.csdn.net/hry2015/article/details/78785009)对应的git代码为[tagv0.10](https://github.com/hryou0922/spring_cloud/tree/v0.10)
 - 20171123 [ Spring cloud系列十二 监控Hystrix界面:Hystrix dashboard 和 Turbine](http://blog.csdn.net/hry2015/article/details/78617954)对应的git代码为[tagv0.9](https://github.com/hryou0922/spring_cloud/tree/v0.9)
@@ -16,6 +17,32 @@
 - 20170906 [Spring cloud系列二 Spring Cloud 配置中心的基本用法](http://blog.csdn.net/hry2015/article/details/77870854)对应的git代码为[tagsv0.2](https://github.com/hryou0922/spring_cloud/tree/v0.2)
 - 20170827 [Spring cloud系列一 包含所有基本要素的完整Spring Cloud demo](http://blog.csdn.net/hry2015/article/details/77623366) 对应的git代码为[tagsv0.1](https://github.com/hryou0922/spring_cloud/tree/v0.1)
 
+## 公共工程
+- cloud-parent：父工程
+- cloud-registration-center： 注册中心服务：提供服务的注册和发现
+    - 当前服务注册的信息：http://127.0.0.1:10761/ 
+    - 服务信息：http://127.0.0.1:10761/health
+    - http://127.0.0.1:10761/info
+- cloud-config-center：配置服务中心：提供公共配置读取服务
+    - 默认地址：
+        - 返回服务器的环境变量：http://127.0.0.1:10888/env
+        - 查看服务器的信息：http://127.0.0.1:10888/health
+        - 返回所有的当前线程：http://127.0.0.1:10888/dump
+    - 查看Native配置
+        - http://127.0.0.1:10888/cloud-config-dev.properties
+        - http://127.0.0.1:10888/cloud-config-test.properties
+        
+## 以下相关工程相关内容：hystrix、hystrix dashboard、feign配置线程池
+- 相关工程
+    - cloud-service-hystrix：服务提供者
+        - HystrixCloudServiceApplication
+            - 测试相关博客：hystrix、[Spring cloud系列十五 使用线程池优化feign的http请求组件](https://blog.csdn.net/hry2015/article/details/79904815)
+    - cloud-consumer-hystrix：服务消费者
+        - HystrixFeignCloudConsumerApplication:
+            - 测试请求地址：http://127.0.0.1:12082/hystrix-feign/simple
+            - 测试相关博客：hystrix、[Spring cloud系列十五 使用线程池优化feign的http请求组件](https://blog.csdn.net/hry2015/article/details/79904815)
+            
+
 # 简单的demo
 介绍springcloud用法 
 - cloud-parent
@@ -23,26 +50,7 @@
 - cloud-config-git
 存储配置文件，用于配置中心通过git方式读取数据
 
-# cloud-config-center
-配置服务中心：提供公共配置读取服务
-
-默认地址：
-- 返回服务器的环境变量：http://127.0.0.1:10888/env
-- 查看服务器的信息：http://127.0.0.1:10888/health
-- 返回所有的当前线程：http://127.0.0.1:10888/dump
-
-查看Native配置
-- http://127.0.0.1:10888/cloud-config-dev.properties
-- http://127.0.0.1:10888/cloud-config-test.properties
-
-
-# cloud-registration-center
-注册中心服务：提供服务的注册和发现
-默认地址
-- 当前服务注册的信息：http://127.0.0.1:10761/ 
-- 服务信息：http://127.0.0.1:10761/health
-- http://127.0.0.1:10761/info
-
+ 
 # cloud-service
 服务提供者
 测试地址： 
@@ -59,3 +67,6 @@
 
 # cloud-ribbon
 - ribbon用法
+
+
+    
