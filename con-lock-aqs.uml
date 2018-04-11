@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.concurrent.locks.ReentrantReadWriteLock</OriginalElement>
+  <nodes>
+    <node x="70.0" y="80.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+    <node x="237.0" y="315.0">java.util.concurrent.locks.ReentrantLock</node>
+    <node x="0.0" y="545.0">java.util.concurrent.Semaphore</node>
+    <node x="188.0" y="160.0">java.util.concurrent.locks.ReentrantLock.Sync</node>
+    <node x="0.0" y="315.0">java.util.concurrent.locks.ReentrantReadWriteLock</node>
+    <node x="306.0" y="80.0">java.util.concurrent.locks.AbstractQueuedLongSynchronizer</node>
+    <node x="175.0" y="390.0">java.util.concurrent.CountDownLatch</node>
+    <node x="265.0" y="235.0">java.util.concurrent.locks.Lock</node>
+    <node x="94.0" y="160.0">java.util.concurrent.CountDownLatch.Sync</node>
+    <node x="0.0" y="470.0">java.util.concurrent.atomic.AtomicInteger</node>
+    <node x="160.0" y="545.0">java.util.concurrent.Phaser</node>
+    <node x="282.0" y="160.0">java.util.concurrent.locks.ReentrantReadWriteLock.Sync</node>
+    <node x="17.0" y="390.0">java.lang.Number</node>
+    <node x="192.75" y="0.0">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
+    <node x="0.0" y="160.0">java.util.concurrent.Semaphore.Sync</node>
+    <node x="28.0" y="235.0">java.util.concurrent.locks.ReadWriteLock</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.locks.AbstractQueuedLongSynchronizer" target="java.util.concurrent.locks.AbstractOwnableSynchronizer">
+      <point x="0.0" y="-15.0" />
+      <point x="428.5" y="55.0" />
+      <point x="358.5" y="55.0" />
+      <point x="55.25" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+      <point x="0.0" y="-15.0" />
+      <point x="225.0" y="135.0" />
+      <point x="205.0" y="135.0" />
+      <point x="27.0" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.AtomicInteger" target="java.lang.Number">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantReadWriteLock.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+      <point x="0.0" y="-15.0" />
+      <point x="319.0" y="135.0" />
+      <point x="259.0" y="135.0" />
+      <point x="81.0" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantReadWriteLock" target="java.util.concurrent.locks.ReadWriteLock">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.util.concurrent.locks.AbstractOwnableSynchronizer">
+      <point x="0.0" y="-15.0" />
+      <point x="178.0" y="55.0" />
+      <point x="248.0" y="55.0" />
+      <point x="-55.25" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.ReentrantLock" target="java.util.concurrent.locks.Lock">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.CountDownLatch.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+      <point x="0.0" y="-15.0" />
+      <point x="131.0" y="135.0" />
+      <point x="151.0" y="135.0" />
+      <point x="-27.0" y="15.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+      <point x="0.0" y="-15.0" />
+      <point x="37.0" y="135.0" />
+      <point x="97.0" y="135.0" />
+      <point x="-81.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9411764705882353" x="275.5" y="287.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

@@ -1,4 +1,21 @@
 spring:
+   zipkin:
+     enabled: false
+     #    base-url: http://localhost:17601/
+  #  rabbitmq:
+  #    host: ${RABBIT_HOST:localhost}
+   # 配置mysql
+   datasource:
+     schema: classpath:/mysql.sql
+     # url: jdbc:mysql://127.0.0.1/test
+     url: jdbc:mysql://127.0.0.1:3306/test?zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2b8
+     username: root
+     password: root
+  # Switch this on to create the schema on startup:
+     initialize: true
+     continueOnError: true
+   sleuth:
+     enabled: false
   zipkin:
-    enabled: true
-    base-url: http://localhost:17601/
+   storage:
+     type: mysql
