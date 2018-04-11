@@ -15,3 +15,8 @@ feign:
   hystrix:
     # 在feign中开启hystrix功能，默认情况下feign不开启hystrix功能
     enabled: true
+  ## 配置httpclient线程池
+  httpclient:
+    enabled: true
+  okhttp:
+    enabled: false

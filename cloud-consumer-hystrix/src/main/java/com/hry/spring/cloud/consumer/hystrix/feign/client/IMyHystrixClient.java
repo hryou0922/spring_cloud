@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @FeignClient(name="cloud-hystrix-service"
         , fallbackFactory = MyHystrixClientFallbackFactory.class )
 public interface IMyHystrixClient {
-    @RequestMapping(value = "/hystrix/simple", method = RequestMethod.POST, consumes="application/json; charset=UTF-8")
+    @RequestMapping(value = "/hystrix/simple",  method = RequestMethod.GET,  consumes="application/json; charset=UTF-8")
     String simpleHystrixClientCall(@RequestParam("time") long time);
 }
