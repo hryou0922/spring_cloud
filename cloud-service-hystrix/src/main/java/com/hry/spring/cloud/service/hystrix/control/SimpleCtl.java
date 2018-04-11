@@ -1,6 +1,7 @@
 package com.hry.spring.cloud.service.hystrix.control;
 
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,7 +13,7 @@ public class SimpleCtl {
     private AtomicInteger count = new AtomicInteger();
     private AtomicInteger sleepCount = new AtomicInteger();
 
-	@RequestMapping(value="/hystrix/simple")
+	@RequestMapping(value="/hystrix/simple",  method = RequestMethod.GET)
     public String hystrixClientCall(@RequestParam("time") long time){
 	    int newCount = count.incrementAndGet();
 		return "time " + time + " hystrix" + newCount + ": " + ThreadLocalRandom.current().nextInt(1000);
